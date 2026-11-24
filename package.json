@@ -12,6 +12,7 @@
     "smoke": "node tests/smoke.js",
     "verify": "node --test tests/*.test.js && node tests/smoke.js",
     "live:check": "node scripts/live-check.js",
+    "indexnow": "node scripts/indexnow.js",
     "i18n:coverage": "node -e \"const i=require('./server/i18n');i.CODES.forEach(c=>{const r=i.coverage(c);console.log((r.complete?'ok  ':'FAIL')+' '+c+'  ui缺'+r.missingUi.length+'  verdict缺'+r.missingVerdict.length+'  qa '+r.qaCount+'/'+r.baseQaCount)})\"",
     "check": "for f in server/*.js public/*.js tests/*.js scripts/*.js; do node --check \"$f\" || exit 1; done",
     "db:backup": "node scripts/db-backup.js backup",
