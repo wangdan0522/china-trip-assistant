@@ -1,0 +1,35 @@
+# China Inbound
+
+> A travel planning assistant for first-time visitors to China, available in six languages: English, Simplified Chinese, Japanese, Korean, Spanish and Russian. It helps travellers explore destinations, understand entry policies and visa-free rules, prepare practical details before travel, and get sourced answers during a trip.
+
+## What this site is
+
+China Inbound is a web application at https://china-trip-assistant.onrender.com. It is a planning and information tool, not a booking agency, visa service, or government body. It does not sell tickets, issue visas, or guarantee entry.
+
+## What it helps with
+
+- **Explore**: travel inspiration across heritage sites, classical gardens, mountain landscapes, city skylines, food and festivals.
+- **Entry policy**: current visa-free arrangements shown with their source, document, expiry date and review status. Uncertain, expired or unreviewed rules are marked clearly rather than guessed.
+- **Prepare**: practical pre-trip checks including phone/internet, payments, safety and language.
+- **During a trip**: a source-cited answer library for common visitor questions, plus tax refund deadline calculation.
+
+## Key facts (with sources)
+
+- Unilateral visa-free entry for eligible ordinary passport holders of 50 countries, up to 30 days, listed as valid through 2026-12-31 under the 2026-09-11 FAQ and the National Immigration Administration 2026 No.4 announcement.
+- 240-hour transit visa-free entry for 57 countries.
+- Hainan visa-free entry for 61 countries.
+- Ordinary shopping tax refund: within 90 days of purchase before departure.
+- Live weather and foreign-exchange rates are fetched from public data providers when available; no values are invented when a source is unavailable.
+- Policy snapshot version: 2026.11.16.
+
+## Language availability
+
+en (native), zh (native), ja, ko, es, ru (AI-reviewed). Labels describe translation review status, not legal verification of policy text.
+
+## Boundaries
+
+Policy information is informational, not legal advice. Visa and entry decisions are made solely by immigration authorities. Tax refund amounts shown before fees are estimates, not guaranteed cash amounts. Booking, ticketing and reservations are not provided.
+
+## Contact and canonical URL
+
+Canonical site: https://china-trip-assistant.onrender.com/

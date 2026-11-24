@@ -23,3 +23,13 @@
 .seo-intro p{font-size:13px;line-height:1.75;color:var(--ink2);margin-bottom:10px}
 .seo-intro p:last-child{margin-bottom:0}
 @media (max-width:600px){.seo-intro{padding:20px;margin-bottom:30px}.seo-intro h2{font-size:17px}}
+
+/* FAQ / static content pages */
+.faq-page{max-width:820px;margin:40px auto 60px;color:var(--ink)}
+.faq-page>a{font-size:13px;color:var(--green);text-decoration:none}
+.faq-page h1{font-size:30px;letter-spacing:-1px;margin:18px 0 12px}
+.faq-page .lead{font-size:15px;line-height:1.7;color:var(--ink2);margin-bottom:30px}
+.faq-page section,.faq-page{margin-bottom:22px}
+.faq-page h2{font-size:18px;margin:26px 0 8px;color:var(--ink)}
+.faq-page p{font-size:14px;line-height:1.75;color:var(--ink2);margin-bottom:10px}
+.faq-page .src{font-size:12px;color:var(--mut);font-style:italic}

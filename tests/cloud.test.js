@@ -641,12 +641,16 @@ test('本地样式脚本相对入口加载、六张插画存在且不再有假�
 test('HTML 脚本顺序、默认隐藏评审面板、无内联事件与旧匿名记录 API', () => {
   const html = fs.readFileSync(path.join(__dirname, '../public/index.html'), 'utf8');
   const scripts = [...html.matchAll(/<script\b([^>]*)>/g)].map((match) => match[1]);
-  assert.equal(scripts.length, 4);
-  assert(scripts.every((attrs) => /\bdefer\b/.test(attrs) && /\bsrc=/.test(attrs)));
-  assert.match(scripts[0], /workbuddy-cloud-sdk@dev\/lib\/index.global.js/);
-  assert.match(scripts[1], /cloud-config.js/);
-  assert.match(scripts[2], /cloud.js/);
-  assert.match(scripts[3], /app.js/);
+  // 内联 JSON-LD（application/ld+json，供搜索引擎/AI 读取）不是可执行脚本，单独排除。
+  const ldScripts = scripts.filter((attrs) => /application\/ld\+json/.test(attrs));
+  assert.equal(ldScripts.length, 1, '应有且仅有一个内联 JSON-LD 数据块');
+  const execScripts = scripts.filter((attrs) => !/application\/ld\+json/.test(attrs));
+  assert.equal(execScripts.length, 4);
+  assert(execScripts.every((attrs) => /\bdefer\b/.test(attrs) && /\bsrc=/.test(attrs)));
+  assert.match(execScripts[0], /workbuddy-cloud-sdk@dev\/lib\/index.global.js/);
+  assert.match(execScripts[1], /cloud-config.js/);
+  assert.match(execScripts[2], /cloud.js/);
+  assert.match(execScripts[3], /app.js/);
   assert.match(html, /<aside[^>]*\bid="notes"[^>]*\bhidden/);
   assert.doesNotMatch(html, /\son\w+\s*=/);
   assert.doesNotMatch(appSource, /anonSid|\/api\/history|\/api\/feedback|inbound\.sid/);

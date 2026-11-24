@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "China Inbound",
+      "url": "https://china-trip-assistant.onrender.com/",
+      "description": "A travel planning assistant for first-time visitors to China, available in six languages."
+    },
+    {
+      "@type": "WebApplication",
+      "name": "China Inbound",
+      "url": "https://china-trip-assistant.onrender.com/",
+      "applicationCategory": "TravelApplication",
+      "operatingSystem": "Web",
+      "inLanguage": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "es",
+        "ru"
+      ],
+      "description": "Plan a first trip to China: destinations, entry policy, preparation and sourced answers in six languages.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is China safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Main-street safety in major Chinese cities is on the good side globally, and violent crime against tourists is rare. What actually catches visitors out isn’t danger — it’s scams."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my phone work? Google / WhatsApp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Phone and app availability depends on your device, operator, plan and network. Do not assume Google, WhatsApp or any other overseas app will work on every connection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I don’t speak Chinese.",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Language support varies by venue and staff. Before booking, ask your hotel, transport provider and attractions which languages and assistance they currently offer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I pay? Is cash still usable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prepare more than one payment method and confirm availability before travelling. Card linking, identity checks and merchant acceptance depend on the provider and your account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much will it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Build a budget using quotes for your dates and itinerary. Flights, accommodation, transport, meals and activities vary by provider and booking conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check your passport, purpose, dates and full itinerary against the relevant official notice. A country list alone does not confirm eligibility. This tool covers selected routes only; missing coverage does not mean a visa is necessarily required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who do I call if something goes wrong?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Save emergency contacts, your accommodation details and provider support information before travelling. Language support and service availability may vary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which languages does China Inbound support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "China Inbound is available in six languages: English, Simplified Chinese, Japanese, Korean, Spanish and Russian."
+          }
+        }
+      ]
+    }
+  ]
+}
