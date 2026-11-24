@@ -1,0 +1,30 @@
+{
+  "name": "inbound-app",
+  "version": "1.1.0",
+  "private": true,
+  "description": "入境游 APP：6 语种、实时数据接入的签证判定 / 答疑 / 退税期限全栈服务",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test tests/*.test.js",
+    "smoke": "node tests/smoke.js",
+    "verify": "node --test tests/*.test.js && node tests/smoke.js",
+    "live:check": "node scripts/live-check.js",
+    "i18n:coverage": "node -e \"const i=require('./server/i18n');i.CODES.forEach(c=>{const r=i.coverage(c);console.log((r.complete?'ok  ':'FAIL')+' '+c+'  ui缺'+r.missingUi.length+'  verdict缺'+r.missingVerdict.length+'  qa '+r.qaCount+'/'+r.baseQaCount)})\"",
+    "check": "for f in server/*.js public/*.js tests/*.js scripts/*.js; do node --check \"$f\" || exit 1; done",
+    "db:backup": "node scripts/db-backup.js backup",
+    "db:restore": "node scripts/db-backup.js restore"
+  },
+  "engines": {
+    "node": ">=22.22.2"
+  },
+  "keywords": [
+    "inbound-travel",
+    "visa-policy",
+    "i18n",
+    "live-data"
+  ],
+  "license": "UNLICENSED"
+}

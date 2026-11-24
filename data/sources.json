@@ -1,0 +1,51 @@
+{
+  "version": "2026.11",
+  "note": "官方源监测配置。只做「变化检测 + 人工复核」，任何自动抓取内容都不会直接写入判定规则。",
+  "policy": [
+    {
+      "id": "nia-notices",
+      "name": "国家移民管理局 · 通知公告",
+      "url": "https://www.nia.gov.cn/n741440/n741567/index.html",
+      "authority": "国家移民管理局"
+    },
+    {
+      "id": "nia-home",
+      "name": "国家移民管理局 · 首页要闻",
+      "url": "https://www.nia.gov.cn/",
+      "authority": "国家移民管理局"
+    }
+  ],
+  "policyKeywords": [
+    "免签",
+    "签证",
+    "过境",
+    "入境",
+    "居留",
+    "政策",
+    "公告",
+    "便利",
+    "外籍",
+    "口岸"
+  ],
+  "weather": {
+    "primary": {
+      "id": "met-no",
+      "provider": "MET Norway",
+      "url": "https://api.met.no/weatherapi/locationforecast/2.0/compact",
+      "license": "CC BY 4.0，需带可识别 User-Agent，免费无密钥",
+      "mode": "per-place"
+    },
+    "fallback": {
+      "id": "open-meteo",
+      "provider": "Open-Meteo",
+      "url": "https://api.open-meteo.com/v1/forecast",
+      "license": "CC BY 4.0，免费无密钥",
+      "mode": "batch"
+    }
+  },
+  "fx": {
+    "provider": "open.er-api.com",
+    "url": "https://open.er-api.com/v6/latest/CNY",
+    "license": "免费层，每日更新一次"
+  }
+}

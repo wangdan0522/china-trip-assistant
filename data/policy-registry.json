@@ -1,0 +1,142 @@
+{
+  "version": "2026.11.16",
+  "checkedAt": "2026-11-16",
+  "note": "内容为官方具体页面核对快照，不是实时政策API。effectiveFrom为null表示没有在本条资料中核实统一生效日，不用发布日期冒充生效日。待复核、过期、缺失或下架的相关规则均停止给结论；页面变化只触发复核，不自动改写规则。",
+  "disclaimer": "本台账不是法律意见，也不保证准予入境或退税；最终由主管机关审查。互免协定尚未逐国核对，暂停推断停留资格。",
+  "retiredRules": [
+    {
+      "id": "taxfree-28",
+      "status": "retired",
+      "retiredOn": "2026-11-16",
+      "replacedBy": ["taxfree-port-90", "taxfree-instant-28"],
+      "reason": "旧规则错误地把普通离境退税也统一为购物日起28天；已撤销，不可通过人工确认恢复。"
+    }
+  ],
+  "rules": [
+    {
+      "id": "unilateral-50",
+      "name": "50国单方面免签中的48国试行规则（30天）",
+      "effectiveFrom": null,
+      "expiresOn": "2026-12-31",
+      "reviewDue": "2026-12-01",
+      "checkedOn": "2026-11-16",
+      "authority": "国家移民管理局 / 中国驻丹麦大使馆",
+      "document": "单方面免签常见问题：50国名单及施行期限（2026-09-11）",
+      "sourceUrl": "https://dk.china-embassy.gov.cn/lsfw/202609/t20260911_12020891.htm",
+      "sources": [
+        { "url": "https://dk.china-embassy.gov.cn/lsfw/202609/t20260911_12020891.htm", "document": "单方面免签常见问题：50国名单及三类期限" }
+      ],
+      "status": "active",
+      "engineFlags": ["f"],
+      "note": "本条只覆盖除俄罗斯、文莱外的48国；普通护照、规定事由、入境次日零时起30个自然日。未核实各国历次统一生效日，不编造该字段。"
+    },
+    {
+      "id": "unilateral-russia",
+      "name": "俄罗斯单方面免签（30天）",
+      "effectiveFrom": null,
+      "expiresOn": "2027-12-31",
+      "reviewDue": "2026-12-01",
+      "checkedOn": "2026-11-16",
+      "authority": "国家移民管理局 / 中国驻丹麦大使馆",
+      "document": "单方面免签常见问题：对俄施行至2027-12-31（2026-09-11）",
+      "sourceUrl": "https://dk.china-embassy.gov.cn/lsfw/202609/t20260911_12020891.htm",
+      "status": "active",
+      "engineFlags": ["f", "u=russia"],
+      "note": "不能与48国到期日或俄方给予中国公民的政策混淆；定期复核，不等到2027年才查。"
+    },
+    {
+      "id": "unilateral-brunei",
+      "name": "文莱单方面免签（30天）",
+      "effectiveFrom": null,
+      "expiresOn": null,
+      "reviewDue": "2026-12-01",
+      "checkedOn": "2026-11-16",
+      "authority": "国家移民管理局 / 中国驻丹麦大使馆",
+      "document": "单方面免签常见问题：文莱未设施行期限（2026-09-11）",
+      "sourceUrl": "https://dk.china-embassy.gov.cn/lsfw/202609/t20260911_12020891.htm",
+      "status": "active",
+      "engineFlags": ["f", "u=brunei"],
+      "note": "未设固定截止日不等于永远有效，仍须按reviewDue复核。"
+    },
+    {
+      "id": "transit-240",
+      "name": "240小时过境免签（57国 / 65口岸）",
+      "effectiveFrom": "2026-08-20",
+      "effectiveFromBasis": "57国名单版本适用起日，不是240小时政策最初设立日",
+      "expiresOn": null,
+      "reviewDue": "2026-12-01",
+      "checkedOn": "2026-11-16",
+      "authority": "国家移民管理局",
+      "document": "国家移民管理局2026年第4号公告（新增吉尔吉斯斯坦、越南）",
+      "sourceUrl": "https://www.nia.gov.cn/n741440/n741542/c1796294/content.html",
+      "sources": [
+        { "url": "https://www.nia.gov.cn/n741440/n741542/c1796294/content.html", "document": "国家移民管理局2026年第4号公告" },
+        { "url": "https://qa.china-embassy.gov.cn/chn/lsfw/lszj/fhqz/202611/t20261102_12051035.htm", "document": "免办签证的情形：57国完整名单及条件（2026-11-02）" }
+      ],
+      "status": "active",
+      "engineFlags": ["t"],
+      "note": "需普通护照和前往第三国或地区的已确定日期行程客票；不是原路返回。仅规定口岸和活动区域，仍需核实完整行程、证件有效期及准入限制。"
+    },
+    {
+      "id": "mutual-agreements",
+      "name": "中外互免签证协定（逐国核对尚未完成）",
+      "effectiveFrom": null,
+      "expiresOn": null,
+      "reviewDue": "2026-12-01",
+      "checkedOn": "2026-11-16",
+      "authority": "外交部 / 中国驻卡塔尔大使馆",
+      "document": "免办签证的情形：双边协议应逐国查阅一览表（2026-11-02）",
+      "sourceUrl": "https://qa.china-embassy.gov.cn/chn/lsfw/lszj/fhqz/202611/t20261102_12051035.htm",
+      "status": "needs_review",
+      "engineFlags": ["m"],
+      "note": "仅保留原有7国线索，不是完整互免名单。停留天数、累计期限、护照和适用活动未逐国核对；不再统一按30天给结论。原一览表链接当前无法读取，不能据此放行。"
+    },
+    {
+      "id": "hainan-30",
+      "name": "海南30天免签（61国）",
+      "effectiveFrom": "2026-08-20",
+      "effectiveFromBasis": "61国名单版本适用起日，不是海南政策最初设立日",
+      "expiresOn": null,
+      "reviewDue": "2026-12-01",
+      "checkedOn": "2026-11-16",
+      "authority": "国家移民管理局",
+      "document": "国家移民管理局2026年第4号公告（海南名单增至61国）",
+      "sourceUrl": "https://www.nia.gov.cn/n741440/n741542/c1796294/content.html",
+      "sources": [
+        { "url": "https://www.nia.gov.cn/n741440/n741542/c1796294/content.html", "document": "国家移民管理局2026年第4号公告" },
+        { "url": "https://qa.china-embassy.gov.cn/chn/lsfw/lszj/fhqz/202611/t20261102_12051035.htm", "document": "免办签证的情形：海南61国完整名单及条件（2026-11-02）" }
+      ],
+      "status": "active",
+      "engineFlags": ["h"],
+      "note": "普通护照、海南开放口岸出入境、活动限海南。工作、学习不适用；不把海南省内活动权当作全国通行权。"
+    },
+    {
+      "id": "taxfree-port-90",
+      "name": "普通离境退税：购物日至离境不超过90天",
+      "effectiveFrom": null,
+      "expiresOn": null,
+      "reviewDue": "2026-12-01",
+      "checkedOn": "2026-11-16",
+      "authority": "国家税务总局江西省税务局",
+      "document": "境外旅客购物离境退税知识问答（2026年2月版）",
+      "sourceUrl": "https://jiangxi.chinatax.gov.cn/art/2026/2/25/art_31172_1666768.html",
+      "status": "active",
+      "engineFlags": ["taxfree", "port"],
+      "note": "还需同人同日同店退税物品满200元、未启用消费、本人携带或托运等条件。8%或11%按物品税率类别选用且须扣手续费；当前只给扣费前范围，不确认资格、净额或实际退税。"
+    },
+    {
+      "id": "taxfree-instant-28",
+      "name": "即买即退：统一28天离境期限要求，实际截止按协议核对",
+      "effectiveFrom": null,
+      "expiresOn": null,
+      "reviewDue": "2026-12-01",
+      "checkedOn": "2026-11-16",
+      "authority": "商务部等6部门 / 国家税务总局上海市税务局",
+      "document": "关于加力优化离境退税措施扩大入境消费的通知（2026-05-12）第三条",
+      "sourceUrl": "https://shanghai.chinatax.gov.cn/zzzb/zcwj/202605/t480366.html",
+      "status": "active",
+      "engineFlags": ["taxfree", "instant"],
+      "note": "发文2026-05-12、页面发布2026-05-20；第三条未单独标明统一生效日，不把其他条款的7月1日移用。需信用卡预授权及协议；当前只使用旅客填写的实际协议截止日，不凭协议签署日推造日期，不保证所有口岸已互认。"
+    }
+  ]
+}

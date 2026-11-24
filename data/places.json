@@ -1,0 +1,12 @@
+{
+  "version": "2026.11",
+  "note": "仅用于实时天气；id 与 destinations 内容包的 items[].id 一一对应",
+  "places": [
+    { "id": "heritage-axis", "coord": [39.9042, 116.4074], "tz": "Asia/Shanghai" },
+    { "id": "heritage-gardens", "coord": [31.2989, 120.5853], "tz": "Asia/Shanghai" },
+    { "id": "nature-southwest", "coord": [29.117, 110.479], "tz": "Asia/Shanghai" },
+    { "id": "city-skylines", "coord": [31.2304, 121.4737], "tz": "Asia/Shanghai" },
+    { "id": "food-trail", "coord": [30.5728, 104.0668], "tz": "Asia/Shanghai" },
+    { "id": "seasonal", "coord": [30.2741, 120.1551], "tz": "Asia/Shanghai" }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "code": "en",
+  "name": "English",
+  "native": "English",
+  "reviewStatus": "native",
+  "reviewNote": "The native label describes the writing status only; it does not certify legal review or verification of the underlying facts.",
+  "dir": "ltr",
+  "ui": {
+    "app.name": "China Inbound",
+    "app.tagline": "From inspiration to takeoff.",
+    "ui.retry": "Try again",
+    "ui.status.loading": "Loading…",
+    "home.account": "My account",
+    "home.browse": "Find travel inspiration",
+    "home.ask": "Talk through my questions",
+    "home.destinations": "Find your reason to go",
+    "home.destinations.sub": "No plan needed. Start with an experience you love.",
+    "home.view": "Explore this route",
+    "home.detail.close": "Back to exploring",
+    "home.detail.title": "Your next adventure",
+    "home.detail.cta": "See what to prepare before you go",
+    "home.detail.ask": "I have a question about this route…",
+    "home.detail.note": "For inspiration only, not a bookable package. Check reservations, document requirements and ticket conditions with each venue.",
+    "home.entry.title": "First visit? A few things to explore",
+    "home.entry.sub": "You do not need every answer at once. Start with what matters to you.",
+    "home.entry.policy": "Can I travel visa-free?",
+    "home.entry.policy.sub": "Check conditions for your passport and itinerary",
+    "home.entry.prep": "What should I prepare?",
+    "home.entry.prep.sub": "Payments, connectivity, accommodation and documents",
+    "home.entry.refund": "How do shopping tax refunds work?",
+    "home.entry.refund.sub": "Explore the options and timing reminders",
+    "home.footer": "Let curiosity lead. Take planning one step at a time.",
+    "home.artNote": "AI travel illustration",
+    "home.photoCredit": "AI-generated illustration · not a real scene",
+    "home.detail.status": "Reservation details have yet to be checked with each venue.",
+    "home.section.label": "Travel inspiration journal",
+    "home.essentials.label": "Travel essentials",
+    "home.ask.cta": "Check entry conditions for my trip",
+    "app.lang": "Language",
+    "nav.explore": "Explore",
+    "nav.ask": "Ask",
+    "nav.prep": "Prepare",
+    "nav.arr": "In China",
+    "nav.dep": "Leaving",
+    "exp.heading": "Explore China",
+    "exp.sub": "Discover landscapes and everyday moments worth the journey",
+    "exp.hero.badge": "Your first China trip, at your own pace",
+    "exp.hero.title": "Your next story<br>starts in China.",
+    "exp.hero.body": "Wander through ancient towns and mountain landscapes. Find the warmth of everyday life in the lanes between. No plan needed yet—just a little curiosity.",
+    "exp.season.heading": "When to come",
+    "exp.season.em": "weather vs crowds",
+    "exp.season.1m": "Mar&ndash;Apr",
+    "exp.season.1d": "Cherry blossom, mild, crowds picking up",
+    "exp.season.2m": "May / Sep&ndash;Oct",
+    "exp.season.2d": "The two universally agreed best windows",
+    "exp.season.3m": "November",
+    "exp.season.3d": "Late autumn, fewer people, lower prices",
+    "exp.season.4m": "Spring Festival / May Day / National Day",
+    "exp.season.4d": "Domestic travel peaks &mdash; tickets and crowds max out",
+    "exp.policy.heading": "Visa &amp; entry, at a glance",
+    "exp.policy.em": "overview, not a verdict",
+    "exp.policy.cta": "Check my situation in 30 seconds &rarr;",
+    "exp.flow.heading": "From &ldquo;I&rsquo;d like to go&rdquo; to &ldquo;I&rsquo;m through the gate&rdquo;",
+    "exp.flow.em": "the whole road, 5 steps",
+    "exp.flow.cta": "See the full step-by-step &rarr;",
+    "ask.heading": "Ask",
+    "ask.sub": "Tell me what&rsquo;s holding you back",
+    "ask.intro": "Booking doesn&rsquo;t stall on paperwork. It stalls on a worry you haven&rsquo;t been able to get a straight answer to. Ask in your own words &mdash; or tap one below.",
+    "ask.placeholder": "Type your question…",
+    "ask.send": "Send",
+    "ask.judge.heading": "Will it work for me?",
+    "ask.judge.note": "This box answers exactly one thing: <b>whether your specific trip clears the rules.</b> The verdict is computed by an engine, not written by the model.",
+    "ask.judge.cta": "Work out my case &darr;",
+    "ask.next.cta": "Says I can come &mdash; what next &rarr;",
+    "fld.nationality": "Nationality",
+    "fld.passport": "Passport type",
+    "fld.purpose": "Purpose",
+    "fld.days": "Days of stay",
+    "fld.port": "Port of entry",
+    "fld.next": "Leaving to",
+    "opt.passport.ord": "Ordinary passport",
+    "opt.passport.other": "Travel document / emergency certificate",
+    "opt.purpose.tour": "Tourism",
+    "opt.purpose.biz": "Business",
+    "opt.purpose.fam": "Family visit",
+    "opt.purpose.exg": "Exchange visit",
+    "opt.purpose.tr": "Transit to a third country",
+    "opt.purpose.work": "Work / study / journalism",
+    "opt.next.home": "Home / back the same way",
+    "opt.next.third": "A third country or region",
+    "opt.port.PVG": "Shanghai Pudong",
+    "opt.port.PEK": "Beijing Capital",
+    "opt.port.CAN": "Guangzhou Baiyun",
+    "opt.port.HAK": "Haikou (Hainan)",
+    "opt.port.SYX": "Sanya (Hainan)",
+    "opt.port.SZX": "Shenzhen Bao&rsquo;an",
+    "prep.heading": "Prepare",
+    "prep.sub": "You&rsquo;ve decided. Now, in order.",
+    "prep.no_trip": "<b>No trip planned yet?</b> Go back to Explore, or check whether you can come visa-free.",
+    "prep.explore": "Explore",
+    "prep.route.title": "Your entry route",
+    "prep.route.verdict": "Verdict",
+    "prep.route.expiry": "Entry window closes",
+    "prep.route.count": "Stay counted from",
+    "prep.route.count_value": "00:00 next day",
+    "prep.before.heading": "Before you fly",
+    "prep.before.1": "Install <b>WeChat</b> and follow its registration prompts. International phone numbers may be used; a +86 number is not universally required.",
+    "prep.before.2": "Check supported cards and verification requirements with your payment provider and bank; test your chosen method and keep a backup.",
+    "prep.before.3": "Ask your operator about lawful roaming, SIM or travel eSIM options, device compatibility, charges and available services.",
+    "prep.before.4": "Save <b>offline translation packs</b> and a photo of your hotel&rsquo;s name and address in Chinese",
+    "prep.before.5": "Keep the same evidence as your stated purpose &mdash; invitation letter, hotel and flight bookings",
+    "prep.imm.heading": "Immigration card &mdash; where people fumble",
+    "prep.imm.1k": "Surname / given name",
+    "prep.imm.1v": "Copy your passport and follow the surname and given-name fields on the actual form.",
+    "prep.imm.2k": "Document number",
+    "prep.imm.2v": "Copy the number from the travel document you will use.",
+    "prep.imm.3k": "Date format",
+    "prep.imm.3v": "Follow the date format requested by the actual form; do not assume one shared format.",
+    "prep.imm.4k": "Accommodation address",
+    "prep.imm.4v": "Prepare the full name, address and contact details of your accommodation; follow the form prompts.",
+    "prep.time.heading": "Countdown",
+    "prep.time.1t": "T&minus;45 days",
+    "prep.time.1d": "Check the visa verdict again &mdash; policies can change",
+    "prep.time.2t": "T&minus;30 days",
+    "prep.time.2d": "Book flights and the first stay",
+    "prep.time.3t": "T&minus;14 days",
+    "prep.time.3d": "Payments, data, translation &mdash; set up and test at home",
+    "prep.time.4t": "T&minus;1 day",
+    "prep.time.4d": "Offline the essentials; screenshot addresses",
+    "arr.heading": "On the ground",
+    "arr.sub": "The things that can actually go wrong",
+    "arr.reg": "<b>Confirm accommodation registration.</b> Ask the hotel or host who will complete it, what documents are needed, the local deadline and whether an online option is available. Keep confirmation; do not assume only an in-person visit is possible.",
+    "arr.hotel.title": "If a hotel says it &ldquo;can&rsquo;t take foreigners&rdquo;",
+    "arr.hotel.body": "Before booking, ask the hotel to confirm that it can check you in with your documents and complete the required accommodation registration. If there is a problem, ask the booking platform or hotel to help find an alternative.",
+    "arr.hotel.cta": "Show the front desk &rarr;",
+    "arr.nums.title": "Numbers worth saving now",
+    "arr.nums.1k": "<b>12367</b> &middot; immigration hotline, multilingual",
+    "arr.nums.1v": "entry, stay, registration",
+    "arr.nums.2k": "<b>110</b> / <b>120</b> / <b>119</b>",
+    "arr.nums.2v": "police / ambulance / fire",
+    "arr.nums.3k": "Your embassy in China",
+    "arr.nums.3v": "lost documents, emergencies",
+    "arr.dayone": "<b>If you plan to shop tax-free:</b> ask the shop and refund provider about documents, any service code, the departure port and the actual agreement deadline. This app does not create a code, collect document numbers or guarantee acceptance.",
+    "dep.heading": "Leaving",
+    "dep.sub": "Refund timing reminders and reference estimates",
+    "dep.note": "This screen provides <b>timing calculations and reference estimates only</b>. It does not confirm eligibility or carry out transactions, refunds, advances or agency services.",
+    "dep.when.title": "When did you shop?",
+    "dep.two.title": "Two routes, two deadlines",
+    "dep.two.k1": "Refund-on-the-spot<br>(needs a credit-card pre-authorisation)",
+    "dep.two.v1": "Check the actual agreement<br>No automatic start date",
+    "dep.two.k2": "Refund at the departure port",
+    "dep.two.v2": "No more than 90 days<br>from purchase to departure",
+    "dep.merge": "<b>The two methods have different conditions.</b> Check the documents, purchase requirements and deadlines with the shop and refund provider. Do not combine the methods or treat this reminder as eligibility confirmation.",
+    "dep.before.title": "Before you buy",
+    "dep.before.body": "1 &nbsp;Ask the shop whether it offers the <b>Tax Free</b> method you need.<br>2 &nbsp;Confirm required documents, card pre-authorisation and fees with the provider.<br>3 &nbsp;Keep the <b>purchase date and actual agreement deadline</b>; do not assume a shared start date.",
+    "ui.bookable.yes": "Passport bookable online",
+    "ui.bookable.partial": "Some need counter check",
+    "ui.bookable.no": "Counter only",
+    "ui.bookable.na": "No booking needed",
+    "ui.booking.required": "Booking required",
+    "ui.booking.verified": "Verified",
+    "ui.booking.unverified": "Not yet verified",
+    "ui.feedback.q": "Was this useful?",
+    "ui.feedback.yes": "Yes",
+    "ui.feedback.no": "No",
+    "ui.feedback.thanks": "Thanks &mdash; noted.",
+    "ui.feedback.improve": "Thanks &mdash; we&rsquo;ll improve this one.",
+    "ui.src.button": "Source &amp; date behind this answer",
+    "ui.src.default": "Condition checks use a versioned, controlled collection of materials. Check each item's source, date and review status; the collection is not fully verified.",
+    "ui.fallback.src": "Answers are limited to controlled materials. Missing or unreviewed information is not filled in by guessing; confirm important details with the source or provider.",
+    "ui.fallback.text": "That one isn&rsquo;t in my rule library &mdash; and guessing on entry rules costs you a flight. I can answer the questions below, or you can run your own case through the engine.",
+    "ui.bot.intro": "Hi. I am your China trip preparation assistant.<br><br>I offer <b>controlled materials and condition checks</b>, not definitive official answers or permission. Check sources, dates and review status, and confirm important details before booking.",
+    "ui.me": "You",
+    "ui.status.connected": "API live · policy v{version}",
+    "ui.status.failed": "API unavailable: {msg}",
+    "ui.status.offline.title": "Backend not running",
+    "ui.status.offline.body": "The page loaded, but the data API is not responding.<br>Run <code>npm start</code> in the project folder, then reload.",
+    "ui.tax.leave_by": "Reminder deadline: {date}",
+    "ui.tax.expired": "Deadline passed",
+    "ui.tax.critical": "Cutting it close",
+    "ui.tax.ok": "Comfortable",
+    "ui.tax.deadline_row": "Timing reminder deadline",
+    "ui.tax.purchase_row": "Purchase date",
+    "ui.tax.status_row": "Status",
+    "ui.tax.left": "There are {days} days until the reminder deadline; this does not confirm eligibility.",
+    "ui.tax.over": "The reminder date has passed. Contact the refund provider to confirm what to do next.",
+    "ov.title": "Please read this at the front desk",
+    "ov.hint": "Ask reception to confirm document and registration requirements.",
+    "ov.body": "Hello, I have a reservation. Could you please confirm which documents you need for check-in and whether you can complete my accommodation registration?<br><br>If there is a problem, please help me contact the booking platform or find another available hotel.<br><br><b>Thank you.</b>",
+    "ov.close": "Close",
+    "live.title": "Live data",
+    "live.weather": "Weather now",
+    "live.fx": "CNY rate",
+    "live.watch": "Policy source watch",
+    "live.changed": "changed · needs review",
+    "live.unchanged": "no change",
+    "live.unreachable": "unreachable",
+    "live.cached": "cached",
+    "live.updated": "updated {time}",
+    "live.refund_note": "Conversion uses a daily reference CNY exchange rate, not a transaction quote.",
+    "live.est": "≈ {amount}",
+    "live.source_policy": "National Immigration Administration · notices",
+    "wx.clear": "Clear",
+    "wx.cloudy": "Cloudy",
+    "wx.fog": "Fog",
+    "wx.drizzle": "Drizzle",
+    "wx.rain": "Rain",
+    "wx.snow": "Snow",
+    "wx.storm": "Thunderstorm",
+    "wx.offline": "weather unavailable",
+    "ask.fees": "Rates (most-often-missed)",
+    "ask.tips": "Practical notes",
+    "dep.est": "Refund estimate",
+    "panel.policy": "Policy health",
+    "panel.storage": "Data store",
+    "panel.ok": "OK",
+    "panel.review": "Needs review",
+    "panel.expired": "Expired · judging paused",
+    "panel.db": "SQLite",
+    "panel.file": "File fallback",
+    "hist.title": "Recent checks",
+    "hist.empty": "No records yet",
+    "auth.title": "Account · email sign-in",
+    "auth.email": "Email address",
+    "auth.code": "Verification code",
+    "auth.sendCode": "Send code",
+    "auth.verify": "Verify and sign in",
+    "auth.signOut": "Sign out",
+    "auth.signedIn": "Signed in. Your saved checks are private to your account.",
+    "auth.signedOut": "Signed out. Private information has been cleared from this page.",
+    "auth.resendIn": "Resend in {seconds} seconds",
+    "auth.codeSent": "Code sent. Check your inbox and spam folder.",
+    "auth.invalidCode": "The code is invalid or has expired. Request a new code and try again.",
+    "auth.getCodeFirst": "Request a code for this email address first.",
+    "auth.wait": "Please wait before trying again.",
+    "cloud.unavailable": "Cloud services are not configured or could not be initialized.",
+    "cloud.preview": "Local preview: cloud features are unavailable here. Open the deployed application to use them.",
+    "cloud.domain": "This domain is not authorized for cloud services. Contact the application administrator.",
+    "cloud.quota": "The service limit has been reached. Please try again later.",
+    "cloud.permission": "You do not have permission to complete this cloud operation.",
+    "cloud.signInRequired": "Please sign in again to continue.",
+    "cloud.network": "Could not connect to the cloud service. Check your connection and try again.",
+    "cloud.failed": "The cloud operation failed. Please try again.",
+    "history.signIn": "Sign in to save checks and view your private history.",
+    "history.save": "Save this check",
+    "history.saved": "Check saved to your account.",
+    "history.snapshot": "Saved checks are informational snapshots, not entry permission. Run a new check before travel.",
+    "feedback.failed": "Feedback was not submitted. Please try again.",
+    "ai.notice": "Optional AI supplement for general travel tips only. It does not determine eligibility or confirm prices or refund amounts. Do not enter personal information.",
+    "ai.supplement": "Get an AI supplement",
+    "ai.stop": "Stop generating",
+    "ai.label": "AI supplement · verify independently",
+    "ai.generating": "Generating… This answer is not complete yet.",
+    "ai.complete": "Generation complete. AI content may be inaccurate; verify important details.",
+    "ai.incomplete": "Generation stopped or was interrupted. The answer is incomplete.",
+    "ai.noModels": "No AI model is currently available. Please try again later.",
+    "ai.privacy": "Enter a question of up to 1,200 characters without personal information, document numbers, email addresses, phone numbers or verification codes.",
+    "policy.countdown": "Current rules end on {date}, {days} days remaining",
+    "policy.expired": "This material is dated through {date}; please check it again",
+    "policy.expiryLine": "Material {version} · Through {date} · {days} days remaining",
+    "policy.sources": "Official sources",
+    "ui.tax.route": "Refund method",
+    "ui.tax.agreementDeadline": "Actual agreement deadline, optional",
+    "ui.tax.needsAgreement": "Please check and enter the agreement deadline",
+    "ui.tax.agreementStatus": "This reminder uses your entered date; the agreement has not been verified",
+    "ui.tax.rateUnavailable": "Exchange rate unavailable; no foreign-currency conversion applied",
+    "ui.tax.feeUnknown": "Fees have not been deducted; confirm the final amount with the refund provider",
+    "ui.tax.amountInvalid": "Enter a valid non-negative amount no greater than 1 billion",
+    "dep.notice.port90": "Purchase date plus 90 days: a timing reminder only, not confirmation of refund eligibility",
+    "dep.notice.needsAgreement": "Refund-on-the-spot has a 28-day policy window; without the actual agreement deadline, no departure date is inferred",
+    "dep.notice.agreementReminder": "Only reminds you of the actual agreement deadline you entered; it does not verify the agreement or eligibility",
+    "dep.estimate.grossRange": "Shows 8%–11% of the purchase amount before fees; neither the applicable rate nor the amount received is guaranteed",
+    "ui.validation": "Please check the values you entered.",
+    "ui.serviceUnavailable": "Service temporarily unavailable. Please try again."
+  },
+  "verdict": {
+    "v.title.visa_required": "Visa required",
+    "v.title.not_covered": "Not covered by this tool",
+    "v.title.unilateral": "Visa-free entry",
+    "v.title.unilateral_over": "Eligible, but you&rsquo;d overstay the limit",
+    "v.title.mutual": "Visa-free entry",
+    "v.title.mutual_over": "Over the mutual-agreement limit",
+    "v.title.transit": "240-hour transit visa-free",
+    "v.title.transit_over": "Transit scheme only gives 10 days",
+    "v.title.transit_not_met": "Transit conditions not met",
+    "v.title.hainan": "Hainan 30-day visa-free",
+    "v.why.work": "Working, studying or reporting in China falls outside <b>every</b> visa-free arrangement and needs the matching visa before you travel, regardless of length of stay.",
+    "v.why.passport": "Visa-free entry applies only to holders of a <b>valid ordinary passport</b>. Travel documents and temporary or emergency certificates are <b>not</b> eligible under either the unilateral visa-free or the transit visa-free scheme.",
+    "v.why.unilateral": "Under the <b>unilateral visa-free policy</b> (50 countries), holders of an ordinary passport may enter visa-free for business, tourism, family visits, exchange or transit, for a stay of <b>no more than 30 days</b>.",
+    "v.why.unilateral_over": "<b>{country}</b> is indeed on the 50-country list &mdash; but visa-free entry allows <b>no more than 30 days</b>, and you plan {days} days. <b>The excess does not work.</b>",
+    "v.why.mutual": "Under the <b>mutual visa exemption agreement</b> between China and <b>{country}</b>, holders of an ordinary passport may enter visa-free, generally for <b>no more than 30 days</b>.",
+    "v.why.mutual_over": "The mutual agreement with <b>{country}</b> generally caps the stay at 30 days; you plan {days} days.",
+    "v.why.transit": "You are a citizen of <b>{country}</b> and your itinerary is origin &rarr; China &rarr; <b>a third country or region</b>, which meets the <b>240-hour transit visa-free</b> conditions.",
+    "v.why.transit_over": "Your transit conditions hold, but the 240-hour scheme caps the stay at <b>10 days</b> and you plan {days} days.",
+    "v.why.transit_not_met": "The 240-hour scheme requires origin &rarr; China &rarr; <b>a third country or region</b>. <b>Your destination is home / back the same way, so origin and destination are the same country &mdash; that is not transit.</b>",
+    "v.why.hainan": "As a citizen of <b>{country}</b> entering via a Hainan port open to foreigners, you may stay visa-free for up to 30 days <b>within Hainan province</b>.",
+    "v.why.visa_required": "Under the conditions you selected, <b>{country}</b> does not qualify under the current unilateral visa-free, mutual agreement, 240-hour transit or Hainan schemes.",
+    "v.p.work.type": "Visa type follows the purpose (Z work / X study / J journalist)",
+    "v.p.work.centre": "Filed through a Chinese Visa Application Service Centre",
+    "v.p.work.lead": "Allow 4&ndash;6 weeks",
+    "v.p.pp.apply": "Apply for the matching visa, or travel on a valid ordinary passport",
+    "v.p.uni.days": "30 days allowed; you plan {days} days &mdash; within the limit",
+    "v.p.uni.midnight": "The stay counts from <b>00:00 the day after entry</b>",
+    "v.p.uni.ports": "Applies at all ports open to foreigners",
+    "v.p.uni.vs_transit": "You also qualify for the <b>240-hour transit visa-free</b> &mdash; but the unilateral scheme gives you <b>30 days</b>. We compared: this one is better for you.",
+    "v.p.expiry.warn": "<b>Trial policy &mdash; runs only to {expires}</b>",
+    "v.p.expiry.none": "No fixed expiry date under the current arrangement",
+    "v.p.uni.evidence": "Carry evidence matching your purpose (invitation, bookings)",
+    "v.p.uni.trim": "Trim to 30 days or less &rarr; enter visa-free",
+    "v.p.uni.need_visa": "Keep {days} days &rarr; you need a visa (L tourist / M business)",
+    "v.p.uni.leave30": "The stay counts from the day after entry; you must leave by day 30",
+    "v.p.mutual.days": "30 days allowed; you plan {days} days",
+    "v.p.mutual.lists": "Mutual agreements and the unilateral list are <b>two separate lists</b> &mdash; don&rsquo;t mix them",
+    "v.p.mutual.official": "Names and durations are subject to the latest official publication",
+    "v.p.mutual.compress": "Under 30 days &rarr; visa-free",
+    "v.p.mutual.visa": "Otherwise a visa is needed",
+    "v.p.tr.days": "Up to 240 hours (10 days); you plan {days} days",
+    "v.p.tr.ticket": "You must hold a connecting ticket with confirmed dates",
+    "v.p.tr.ports": "Entry at any of <b>65 open ports</b> across 24 provinces",
+    "v.p.tr.provinces": "Travel is limited to the 24 covered provinces; cross-province travel allowed",
+    "v.p.tr.exclusions": "Not available to those previously refused a Chinese visa or with illegal entry/exit records within 5 years",
+    "v.p.tr.compress": "Under 10 days &rarr; 240-hour transit works",
+    "v.p.tr.visa": "Need longer &rarr; a visa is required",
+    "v.p.trn.qualify": "As a citizen of {country} you would qualify &mdash; but you must genuinely go on to a third country",
+    "v.p.trn.change": "Change &ldquo;leaving to&rdquo; to a third country and recompute",
+    "v.p.trn.normal": "Just a return trip to China &rarr; apply for a normal visa",
+    "v.p.hn.port": "Your chosen port qualifies",
+    "v.p.hn.only": "<b>Travel is limited to Hainan only</b> &mdash; if you also want Shanghai or Guangzhou, this route fails",
+    "v.p.vr.purpose": "Choose the visa by purpose (L tourist / M business / Q family)",
+    "v.p.vr.centre": "Filed via a Chinese Visa Application Service Centre; allow 4&ndash;6 weeks",
+    "v.p.vr.hainan": "If you&rsquo;re only going to Hainan and enter via Haikou or Sanya, Hainan&rsquo;s 30-day visa-free applies",
+    "v.p.vr.transit": "If your trip continues to a third country or region with a connecting ticket, consider the <b>240-hour transit visa-free</b>",
+    "v.byline": "Calculated by rules, not decided by AI. For preparation only; entry is subject to review by the competent authority.",
+    "v.blocked.title": "Materials temporarily unavailable for assessment",
+    "v.blocked.why": "Relevant rules have expired, await review or are not covered; no conclusion is provided for now. Check the original notices below.",
+    "v.blocked.point": "No eligibility assessment before the materials are updated and checked.",
+    "v.review.title": "Policy may have changed",
+    "v.review.why": "Our source monitor detected a change and the rules have not been reviewed yet. The answer below is based on version {version}. Check the latest official notice before you book.",
+    "v.review.point": "Flagged for review: {msg}"
+  },
+  "qa": [
+    {
+      "id": "safety",
+      "action": "answer",
+      "k": [
+        "safe",
+        "safety",
+        "danger",
+        "crime",
+        "security",
+        "安全",
+        "危险"
+      ],
+      "q": "Is China safe?",
+      "a": "Main-street safety in major Chinese cities is on the good side globally, and violent crime against tourists is rare. What actually catches visitors out isn&rsquo;t danger &mdash; it&rsquo;s <b>scams</b>.",
+      "li": [
+        "Watch belongings in crowds &mdash; metro, shopping streets, park gates",
+        "Anyone approaching you near a sight to invite you to &ldquo;tea&rdquo;, an &ldquo;exhibition&rdquo; or a &ldquo;jade shop&rdquo;: decline flatly. It is the most common trap.",
+        "Disputes: call <b>110</b>. No Chinese? Ask your hotel front desk to help."
+      ],
+      "src": "Basis: MPS public security guidance and travel advisories for major Chinese cities, 2026."
+    },
+    {
+      "id": "phone",
+      "action": "answer",
+      "k": [
+        "phone",
+        "sim",
+        "esim",
+        "google",
+        "whatsapp",
+        "vpn",
+        "internet",
+        "wifi",
+        "roaming",
+        "手机",
+        "上网",
+        "网络",
+        "翻墙"
+      ],
+      "q": "Will my phone work? Google / WhatsApp?",
+      "a": "Phone and app availability depends on your device, operator, plan and network. Do not assume Google, WhatsApp or any other overseas app will work on every connection.",
+      "li": [
+        "Ask your operator about international roaming, coverage, charges and SMS reception before travelling.",
+        "For a lawful local SIM or travel eSIM, confirm device compatibility, activation requirements and available services with the provider.",
+        "Save essential addresses, booking details and translation packs offline before departure."
+      ],
+      "warn": "Follow local laws and service terms. This guide does not provide instructions for bypassing network restrictions or guarantee access to overseas apps.",
+      "src": "Maintenance note: general connectivity preparation, not live network testing or a verified operator quotation. Confirm current terms and app availability with your provider."
+    },
+    {
+      "id": "language",
+      "action": "answer",
+      "k": [
+        "language",
+        "english",
+        "chinese",
+        "translate",
+        "menu",
+        "speak",
+        "语言",
+        "中文",
+        "翻译"
+      ],
+      "q": "I don&rsquo;t speak Chinese.",
+      "a": "Language support varies by venue and staff. Before booking, ask your hotel, transport provider and attractions which languages and assistance they currently offer.",
+      "li": [
+        "Confirm interpretation availability, booking requirements and any charges with the provider; do not assume a translation device is available.",
+        "Download offline translation packs and save your destination and hotel name and address in Chinese.",
+        "Show the written Chinese address when asking for directions; check key translations with the provider."
+      ],
+      "src": "General language preparation advice, not a verified inventory of devices or multilingual services. Confirm current support with each provider."
+    },
+    {
+      "id": "payment",
+      "action": "answer",
+      "k": [
+        "pay",
+        "money",
+        "cash",
+        "card",
+        "alipay",
+        "wechat pay",
+        "currency",
+        "支付",
+        "付钱",
+        "现金",
+        "钱"
+      ],
+      "q": "How do I pay? Is cash still usable?",
+      "a": "Prepare more than one payment method and confirm availability before travelling. Card linking, identity checks and merchant acceptance depend on the provider and your account.",
+      "li": [
+        "Ask each wallet provider which cards, documents and account setup steps it currently supports.",
+        "Ask merchants which payment methods they accept, and test your chosen method before relying on it.",
+        "Plan a cash backup and confirm nearby exchange or ATM services, opening hours, card acceptance and charges with the provider."
+      ],
+      "fees": [
+        "Confirm platform fees, thresholds and any current exemptions in the provider's terms and payment screen.",
+        "Ask your issuing bank about foreign transaction, conversion and cash withdrawal charges."
+      ],
+      "tips": [
+        "Check with your bank whether travel notification or additional authentication is needed.",
+        "Keep a backup payment method and the provider's support details; do not assume setup or payment will succeed."
+      ],
+      "src": "General payment preparation advice, not a verified fee schedule or acceptance guarantee. Confirm current terms with the wallet provider, merchant and issuing bank."
+    },
+    {
+      "id": "cost",
+      "action": "answer",
+      "k": [
+        "cost",
+        "price",
+        "expensive",
+        "budget",
+        "how much",
+        "花费",
+        "贵",
+        "预算",
+        "多少钱"
+      ],
+      "q": "How much will it cost?",
+      "a": "Build a budget using quotes for your dates and itinerary. Flights, accommodation, transport, meals and activities vary by provider and booking conditions.",
+      "li": [
+        "Confirm the total price, included services, deposits and cancellation terms before booking.",
+        "Ask the payment provider and your bank about platform and foreign transaction charges.",
+        "Check conversion rates, spreads and settlement currency before confirming payment."
+      ],
+      "tips": [
+        "Compare final payable totals, not only advertised base prices.",
+        "Keep booking confirmations and the provider's written price and fee terms.",
+        "Set aside a contingency and do not assume a fee exemption or refund will apply."
+      ],
+      "tail": "For shopping refunds, ask the shop and refund provider about current conditions and charges. The Leaving screen provides reminders and reference estimates, not a guaranteed saving.",
+      "src": "General budgeting preparation, not verified prices or fees. Confirm current quotes and terms directly with providers."
+    },
+    {
+      "id": "visa",
+      "action": "judge",
+      "k": [
+        "visa",
+        "visa-free",
+        "passport",
+        "entry",
+        "免签",
+        "签证",
+        "入境"
+      ],
+      "q": "Do I need a visa?",
+      "a": "Check your passport, purpose, dates and full itinerary against the relevant official notice. A country list alone does not confirm eligibility. This tool covers selected routes only; missing coverage does not mean a visa is necessarily required.",
+      "li": [
+        "<b>Unilateral list: 50 countries</b>, ordinary passports and listed purposes, up to 30 days. In this snapshot, 48 trials end on <b>2026-12-31</b>, Russia on <b>2027-12-31</b>; Brunei has no fixed end date, but still needs review.",
+        "<b>240-hour transit list: 57 countries</b>. Check onward travel to a third country or region, confirmed tickets, permitted ports and areas, document validity and all other conditions.",
+        "<b>Hainan list: 61 countries</b>, up to 30 days within Hainan. Do not treat this as nationwide travel permission.",
+        "Mutual agreements remain under country-by-country review. Non-ordinary documents and work, study or reporting need separate confirmation; this tool does not decide those cases."
+      ],
+      "yes": true,
+      "src": "Controlled snapshot 2026-11-16: unilateral FAQ (2026-09-11), NIA Notice No. 4 of 2026 and visa-exemption guidance (2026-11-02). See the linked source documents; mutual agreements are not fully reviewed."
+    },
+    {
+      "id": "help",
+      "action": "answer",
+      "k": [
+        "emergency",
+        "help",
+        "police",
+        "hospital",
+        "lost",
+        "call",
+        "求助",
+        "出事",
+        "报警",
+        "丢"
+      ],
+      "q": "Who do I call if something goes wrong?",
+      "a": "Save emergency contacts, your accommodation details and provider support information before travelling. Language support and service availability may vary.",
+      "li": [
+        "Save <b>12367</b> for entry and stay enquiries; confirm current service scope and language support before relying on it.",
+        "<b>110 / 120 / 119</b> — police / ambulance / fire; keep your location ready and ask nearby staff for language help if needed.",
+        "Save your consular contact details and confirm how to request help with lost documents or emergencies.",
+        "Before booking, ask the hotel to confirm check-in with your documents and accommodation registration. If there is a problem, ask the hotel or booking platform for alternatives; acceptance is not guaranteed."
+      ],
+      "src": "General help preparation, not a guarantee of language support or hotel acceptance. Confirm current services with the relevant provider."
+    }
+  ],
+  "dest": {
+    "version": "2026.10",
+    "checkedAt": "2026-10-14",
+    "disclaimer": "These themed ideas are for inspiration only. Reservation and ticketing details have not been individually tested; check with each venue before booking.",
+    "categories": [
+      {
+        "id": "all",
+        "name": "All"
+      },
+      {
+        "id": "his",
+        "name": "Heritage"
+      },
+      {
+        "id": "nat",
+        "name": "Nature"
+      },
+      {
+        "id": "cit",
+        "name": "Cities"
+      },
+      {
+        "id": "foo",
+        "name": "Food"
+      },
+      {
+        "id": "sea",
+        "name": "Seasonal"
+      }
+    ],
+    "items": [
+      {
+        "id": "heritage-axis",
+        "cat": "his",
+        "title": "Great Wall, old capitals & the central axis",
+        "desc": "A day on Beijing's central axis says more than any documentary.",
+        "badges": [
+          "English OK",
+          "4–6 days"
+        ],
+        "booking": {
+          "reservationRequired": true,
+          "passportOnline": "partial",
+          "note": "Real-name booking required. Passport holders can book online at most sites, but a few still need counter verification.",
+          "verified": false
+        }
+      },
+      {
+        "id": "heritage-gardens",
+        "cat": "his",
+        "title": "Water towns & classical gardens",
+        "desc": "Suzhou's windows, Hangzhou's lake, Wuzhen's bridges. It only works slow.",
+        "badges": [
+          "English OK",
+          "3–5 days"
+        ],
+        "booking": {
+          "reservationRequired": true,
+          "passportOnline": "partial",
+          "note": "Popular gardens cap daily entries; book 3–7 days ahead in peak season.",
+          "verified": false
+        }
+      },
+      {
+        "id": "nature-southwest",
+        "cat": "nat",
+        "title": "Southwest landscapes",
+        "desc": "Zhangjiajie's peaks, Jiuzhaigou's water, Guilin's river. Give this line time.",
+        "badges": [
+          "Long transfers",
+          "6–8 days"
+        ],
+        "booking": {
+          "reservationRequired": true,
+          "passportOnline": "yes",
+          "note": "Timed-entry tickets; passport number accepted at checkout on official channels.",
+          "verified": false
+        }
+      },
+      {
+        "id": "city-skylines",
+        "cat": "cit",
+        "title": "Megacities & skylines",
+        "desc": "Shanghai, Shenzhen, Guangzhou: easiest on English, easiest first stop.",
+        "badges": [
+          "Most English-friendly",
+          "2–4 days"
+        ],
+        "booking": {
+          "reservationRequired": false,
+          "passportOnline": "yes",
+          "note": "Most attractions take walk-ups; observation decks are worth pre-booking.",
+          "verified": false
+        }
+      },
+      {
+        "id": "food-trail",
+        "cat": "foo",
+        "title": "Worth a trip for the food alone",
+        "desc": "Chengdu, Xi'an, Guangzhou. Menus are Chinese-only — which is exactly where AI earns its keep.",
+        "badges": [
+          "Menus in Chinese",
+          "3–5 days"
+        ],
+        "booking": {
+          "reservationRequired": false,
+          "passportOnline": "na",
+          "note": "Restaurants mostly don't take reservations for small parties.",
+          "verified": false
+        }
+      },
+      {
+        "id": "seasonal",
+        "cat": "sea",
+        "title": "Seasonal only",
+        "desc": "Spring Festival lanterns, March cherry blossom, late-autumn ginkgo. Same route, different season, different trip.",
+        "badges": [
+          "Book early",
+          "Date it to the bloom"
+        ],
+        "booking": {
+          "reservationRequired": true,
+          "passportOnline": "partial",
+          "note": "Peak-date slots sell out weeks ahead; check the exact bloom or festival window first.",
+          "verified": false
+        }
+      }
+    ],
+    "seasons": [
+      {
+        "months": "Mar–Apr",
+        "desc": "Cherry blossom, mild, crowds picking up",
+        "warn": false
+      },
+      {
+        "months": "May / Sep–Oct",
+        "desc": "The two universally agreed best windows",
+        "warn": false
+      },
+      {
+        "months": "November",
+        "desc": "Late autumn, fewer people, lower prices",
+        "warn": false
+      },
+      {
+        "months": "Spring Festival / May Day / National Day",
+        "desc": "Domestic travel peaks — tickets and crowds max out",
+        "warn": true
+      }
+    ]
+  },
+  "policy": {
+    "version": "2026.11.16",
+    "checkedAt": "2026-11-16",
+    "source": {
+      "authority": "国家移民管理局 / 中国驻外使馆",
+      "document": "单方面免签常见问题（2026-09-11） / 国家移民管理局2026年第4号公告",
+      "secondary": "免办签证的情形（2026-11-02）；互免协定逐国复核未完成",
+      "documents": [
+        { "url": "https://dk.china-embassy.gov.cn/lsfw/202609/t20260911_12020891.htm", "document": "单方面免签常见问题（2026-09-11）" },
+        { "url": "https://www.nia.gov.cn/n741440/n741542/c1796294/content.html", "document": "国家移民管理局2026年第4号公告" },
+        { "url": "https://qa.china-embassy.gov.cn/chn/lsfw/lszj/fhqz/202611/t20261102_12051035.htm", "document": "免办签证的情形（2026-11-02）" }
+      ]
+    },
+    "expiry": {
+      "unilateralTrial": "2026-12-31",
+      "russia": "2027-12-31",
+      "brunei": null
+    },
+    "stats": [
+      {
+        "value": "50",
+        "unit": "",
+        "label": "countries visa-free<br>up to 30 days",
+        "hot": false
+      },
+      {
+        "value": "240",
+        "unit": "h",
+        "label": "transit visa-free<br>57 countries",
+        "hot": false
+      },
+      {
+        "value": "30",
+        "unit": "d",
+        "label": "Hainan only<br>61 countries",
+        "hot": true
+      }
+    ],
+    "notes": [
+      {
+        "tone": "o",
+        "text": "<b>Different arrangements have different dates.</b> In this snapshot, 48 trials end on <b>2026-12-31</b>, Russia on <b>2027-12-31</b>, and Brunei has no fixed end date. No end date does not mean permanently valid; recheck before booking."
+      },
+      {
+        "tone": "b",
+        "text": "<b>Selected routes only, not worldwide coverage.</b> Mutual agreements remain under country-by-country review. Match passport, purpose, dates and full itinerary; this overview and a list match are not entry permission."
+      }
+    ],
+    "steps": [
+      { "n": 1, "title": "Choose dates and a theme", "desc": "Explore regions and seasons; compare forecasts, holidays and actual quotes for your dates.", "when": "Explore", "hot": false },
+      { "n": 2, "title": "Check the entry route", "desc": "Compare your documents and itinerary with official conditions before non-refundable bookings. Ask the consulate about the actual application process and time.", "when": "Before booking", "hot": true },
+      { "n": 3, "title": "Confirm flights and stays", "desc": "Ask the hotel about check-in with your documents, accommodation registration and cancellation terms.", "when": "After checking", "hot": false },
+      { "n": 4, "title": "Prepare payments and connectivity", "desc": "Confirm current services with providers, test them and save addresses and essentials offline.", "when": "Before departure", "hot": false },
+      { "n": 5, "title": "Arrive and confirm registration", "desc": "Follow the actual entry form and confirm the local registration process, deadline and completion with your hotel or host.", "when": "On arrival", "hot": false }
+    ]
+  }
+}

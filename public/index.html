@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Discover China at your own pace. Travel inspiration, thoughtful preparation and helpful answers in six languages.">
+<meta name="theme-color" content="#F7F8F3">
+<title>China Inbound — A little curiosity, a whole new journey</title>
+<link rel="stylesheet" href="styles.css?v=20261116-ui2">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="#exp" data-act="jump" data-v="exp" aria-label="China Inbound">
+    <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M5 23L13 8l5 9 3-5 6 11H5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="24" cy="7" r="2.5" fill="currentColor"/></svg></span>
+    <span><h1 data-i18n="app.name">China Inbound</h1><span class="brand-caption" data-i18n="app.tagline">A little curiosity, a whole new journey.</span></span>
+  </a>
+  <div class="top-tools">
+    <span class="connection-indicator" aria-hidden="true"></span>
+    <span class="tg" id="apiStatus">…</span>
+    <span class="v" id="langBadge">EN</span>
+    <select class="langsel" id="langSel" aria-label="Language"></select>
+    <button class="account-trigger" type="button" data-act="account"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.5"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></svg><span data-i18n="home.account">My account</span></button>
+  </div>
+</header>
+
+<div class="stage">
+
+  <div class="phone">
+    <div class="screen" id="appScreen" data-load-state="loading">
+      <div class="load-notice" id="loadNotice" role="status" aria-live="polite">
+        <p id="loadMessage"></p>
+        <button type="button" class="btn alt" id="retryLoad" hidden></button>
+      </div>
+      <p class="cloud-status cloud-notice" id="cloudNotice" role="status"></p>
+      <details class="account" id="accountPanel">
+        <summary data-i18n="auth.title"></summary>
+        <form id="authForm">
+          <label class="fld"><span data-i18n="auth.email"></span><input id="authEmail" type="email" autocomplete="email" required maxlength="254"></label>
+          <button type="button" class="btn alt" id="sendCode" data-act="sendCode" data-i18n="auth.sendCode"></button>
+          <label class="fld"><span data-i18n="auth.code"></span><input id="authCode" type="text" inputmode="numeric" autocomplete="one-time-code" required maxlength="12" pattern="[0-9]{4,12}"></label>
+          <button type="submit" class="btn" id="verifyCode" data-i18n="auth.verify"></button>
+        </form>
+        <div id="signedIn" hidden><p data-i18n="auth.signedIn"></p><button class="btn alt" type="button" data-act="signOut" data-i18n="auth.signOut"></button></div>
+      </details>
+      <div class="views" id="views">
+
+        <!-- ============ 1 探索 ============ -->
+        <section class="view on" id="v-exp">
+          <div class="hero">
+            <div class="hero-copy">
+              <span class="hb"><span class="tiny-sun" aria-hidden="true"></span><span data-i18n="exp.hero.badge"></span></span>
+              <h2 data-i18n="exp.hero.title"></h2>
+              <p data-i18n="exp.hero.body"></p>
+              <div class="hero-actions">
+                <button class="btn" data-act="browse"><span data-i18n="home.browse"></span><span aria-hidden="true">↗</span></button>
+                <button class="text-button" data-act="jump" data-v="ask"><span data-i18n="home.ask"></span><span aria-hidden="true">→</span></button>
+              </div>
+              <div class="hero-foot"><span class="hero-rule" aria-hidden="true"></span><span data-i18n="app.tagline"></span></div>
+            </div>
+            <figure class="hero-visual">
+              <img src="assets/heritage-axis.jpg" alt="" width="498" height="498" fetchpriority="high">
+              <figcaption><span data-i18n="home.artNote"></span><span aria-hidden="true">01 / 06</span></figcaption>
+              <span class="hero-seal" aria-hidden="true">山<br>海</span>
+            </figure>
+          </div>
+
+          <section class="inspiration" id="inspiration">
+            <div class="section-heading"><div><span class="eyebrow" data-i18n="home.section.label"></span><h3 data-i18n="home.destinations"></h3><p data-i18n="home.destinations.sub"></p></div><span class="section-index" aria-hidden="true">01 — 06</span></div>
+            <div class="chips" id="chips"></div>
+            <div id="destList" class="destination-grid"></div>
+          </section>
+
+          <section class="essentials">
+            <div class="section-heading"><div><span class="eyebrow" data-i18n="home.essentials.label"></span><h3 data-i18n="home.entry.title"></h3><p data-i18n="home.entry.sub"></p></div></div>
+            <div class="entry-grid">
+              <button class="entry-card" data-act="toJudge"><span class="entry-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="3"/><circle cx="12" cy="10" r="3"/><path d="M9 17h6M9 10h6M12 7v6"/></svg></span><span><strong data-i18n="home.entry.policy"></strong><small data-i18n="home.entry.policy.sub"></small></span><span class="entry-arrow" aria-hidden="true">↗</span></button>
+              <button class="entry-card" data-act="jump" data-v="prep"><span class="entry-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="5" width="14" height="16" rx="3"/><path d="M9 5V3h6v2M9 11h6M9 15h4"/></svg></span><span><strong data-i18n="home.entry.prep"></strong><small data-i18n="home.entry.prep.sub"></small></span><span class="entry-arrow" aria-hidden="true">↗</span></button>
+              <button class="entry-card" data-act="jump" data-v="dep"><span class="entry-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h14v17l-3-2-4 2-4-2-3 2V4Z"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></span><span><strong data-i18n="home.entry.refund"></strong><small data-i18n="home.entry.refund.sub"></small></span><span class="entry-arrow" aria-hidden="true">↗</span></button>
+            </div>
+          </section>
+
+          <section class="season-section"><div class="sec"><i></i><span data-i18n="exp.season.heading"></span><em data-i18n="exp.season.em"></em></div>
+          <div class="season">
+            <div class="sc"><div class="m" data-i18n="exp.season.1m"></div><div class="d" data-i18n="exp.season.1d"></div></div>
+            <div class="sc"><div class="m" data-i18n="exp.season.2m"></div><div class="d" data-i18n="exp.season.2d"></div></div>
+            <div class="sc"><div class="m" data-i18n="exp.season.3m"></div><div class="d" data-i18n="exp.season.3d"></div></div>
+            <div class="sc warn"><div class="m" data-i18n="exp.season.4m"></div><div class="d" data-i18n="exp.season.4d"></div></div>
+          </div></section>
+
+          <div class="guide-grid">
+          <section class="guide-panel">
+          <!-- 政策概览 -->
+          <div class="sec"><i></i><span data-i18n="exp.policy.heading"></span><em data-i18n="exp.policy.em"></em></div>
+          <div class="pstats" id="pstats"></div>
+          <div id="policyNotes"></div>
+          <button class="btn warn" data-act="toJudge" data-i18n="exp.policy.cta"></button>
+
+          </section>
+          <section class="guide-panel">
+          <!-- 流程概览 -->
+          <div class="sec"><i></i><span data-i18n="exp.flow.heading"></span><em data-i18n="exp.flow.em"></em></div>
+          <div class="steps" id="steps"></div>
+          <div style="margin-top:4px"><button class="btn alt" data-act="jump" data-v="prep" data-i18n="exp.flow.cta"></button></div>
+          </section>
+          </div>
+          <footer class="page-footer"><span class="footer-flower" aria-hidden="true">✳</span><span data-i18n="home.footer"></span><span data-i18n="home.artNote"></span></footer>
+        </section>
+
+        <!-- ============ 2 答疑 · Agent ============ -->
+        <section class="view" id="v-ask">
+          <div class="hd">
+            <div>
+              <h2 data-i18n="ask.heading">Ask</h2>
+              <p data-i18n="ask.sub"></p>
+            </div>
+          </div>
+
+          <div class="note b" data-i18n="ask.intro"></div>
+          <button type="button" class="btn judge-shortcut" data-act="toJudge"><span data-i18n="home.ask.cta"></span><span aria-hidden="true">↗</span></button>
+          <div class="qk" id="qk"></div>
+          <div class="chat" id="chat"></div>
+          <div class="askbar">
+            <input id="askin" data-i18n-ph="ask.placeholder">
+            <button data-act="send"><span data-i18n="ask.send">Send</span></button>
+          </div>
+
+          <div class="ai-controls">
+            <p data-i18n="ai.notice"></p>
+            <button class="btn alt" id="aiSupplement" data-act="aiSupplement" data-i18n="ai.supplement" disabled></button>
+            <button class="btn alt" id="aiStop" data-act="aiStop" data-i18n="ai.stop" hidden></button>
+          </div>
+          <div id="judgeWrap" style="display:none;margin-top:18px">
+            <div class="sec"><i></i><span data-i18n="ask.judge.heading"></span></div>
+            <div class="note b" data-i18n="ask.judge.note"></div>
+            <div class="grid2">
+              <label class="fld"><span data-i18n="fld.nationality"></span><select id="nat"></select></label>
+              <label class="fld"><span data-i18n="fld.passport"></span>
+                <select id="ppt">
+                  <option value="ord" data-i18n="opt.passport.ord"></option>
+                  <option value="other" data-i18n="opt.passport.other"></option>
+                </select>
+              </label>
+              <label class="fld"><span data-i18n="fld.purpose"></span>
+                <select id="pur">
+                  <option value="tour" data-i18n="opt.purpose.tour"></option>
+                  <option value="biz" data-i18n="opt.purpose.biz"></option>
+                  <option value="fam" data-i18n="opt.purpose.fam"></option>
+                  <option value="exg" data-i18n="opt.purpose.exg"></option>
+                  <option value="tr" data-i18n="opt.purpose.tr"></option>
+                  <option value="work" data-i18n="opt.purpose.work"></option>
+                </select>
+              </label>
+              <label class="fld"><span data-i18n="fld.days"></span><input type="number" id="stay" value="10" min="1" max="180"></label>
+              <label class="fld"><span data-i18n="fld.port"></span>
+                <select id="inp">
+                  <option value="PVG" data-i18n="opt.port.PVG"></option>
+                  <option value="PEK" data-i18n="opt.port.PEK"></option>
+                  <option value="CAN" data-i18n="opt.port.CAN"></option>
+                  <option value="HAK" data-i18n="opt.port.HAK"></option>
+                  <option value="SYX" data-i18n="opt.port.SYX"></option>
+                  <option value="SZX" data-i18n="opt.port.SZX"></option>
+                </select>
+              </label>
+              <label class="fld"><span data-i18n="fld.next"></span>
+                <select id="nxt">
+                  <option value="home" data-i18n="opt.next.home"></option>
+                  <option value="third" data-i18n="opt.next.third"></option>
+                </select>
+              </label>
+            </div>
+            <div id="res"></div>
+            <button class="btn alt" id="saveResult" data-act="saveResult" data-i18n="history.save" hidden></button>
+            <p class="cloud-status" id="saveStatus" role="status"></p>
+            <p class="cloud-status" data-i18n="history.snapshot"></p>
+            <div id="histBox" aria-live="polite"></div>
+          </div>
+
+          <div style="margin-top:8px">
+            <button class="btn alt" data-act="jump" data-v="prep" data-i18n="ask.next.cta"></button>
+          </div>
+        </section>
+
+        <!-- ============ 3 准备 ============ -->
+        <section class="view" id="v-prep">
+          <div class="hd"><div>
+            <h2 data-i18n="prep.heading">Prepare</h2>
+            <p data-i18n="prep.sub"></p>
+          </div></div>
+
+          <div class="note o" style="display:flex;gap:12px;align-items:center">
+            <span style="flex:1" data-i18n="prep.no_trip"></span>
+            <button class="mini" style="flex:none;font-family:inherit;font-size:11.5px;font-weight:600;color:#fff;background:var(--orange);border:none;border-radius:9px;padding:8px 12px;cursor:pointer" data-act="jump" data-v="exp" data-i18n="prep.explore"></button>
+          </div>
+
+          <div class="card">
+            <div class="ct" style="font-size:13.5px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:7px;margin-bottom:9px" data-i18n="prep.route.title"></div>
+            <div class="rows">
+              <div class="row"><span class="k" data-i18n="prep.route.verdict"></span><span class="v" id="prepVerdict"></span></div>
+              <div class="row"><span class="k" data-i18n="prep.route.expiry"></span><span class="v" style="color:#B4630C" id="prepExpiry"></span></div>
+              <div class="row"><span class="k" data-i18n="prep.route.count"></span><span class="v" data-i18n="prep.route.count_value"></span></div>
+            </div>
+          </div>
+
+          <div class="sec"><i></i><span data-i18n="prep.before.heading"></span></div>
+          <div class="card" id="beforeList"></div>
+
+          <div class="sec"><i></i><span data-i18n="prep.imm.heading"></span></div>
+          <div class="card" style="background:#FFFDF8;border-color:#F7E3C4">
+            <div class="rows" id="immRows"></div>
+          </div>
+
+          <div class="sec"><i></i><span data-i18n="prep.time.heading"></span></div>
+          <div class="tl" id="timeline"></div>
+        </section>
+
+        <!-- ============ 4 在路上 ============ -->
+        <section class="view" id="v-arr">
+          <div class="hd"><div>
+            <h2 data-i18n="arr.heading"></h2>
+            <p data-i18n="arr.sub"></p>
+          </div></div>
+
+          <div class="note r" data-i18n="arr.reg"></div>
+
+          <div class="card">
+            <div class="ct" style="font-size:13.5px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:7px;margin-bottom:9px" data-i18n="arr.hotel.title"></div>
+            <div class="cs" style="font-size:12px;color:var(--ink2);line-height:1.6" data-i18n="arr.hotel.body"></div>
+            <button class="btn warn" style="margin-top:11px" data-act="ovOn" data-i18n="arr.hotel.cta"></button>
+          </div>
+
+          <div class="card">
+            <div class="ct" style="font-size:13.5px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:7px;margin-bottom:9px" data-i18n="arr.nums.title"></div>
+            <div class="rows">
+              <div class="row"><span class="k" data-i18n="arr.nums.1k"></span><span class="v" data-i18n="arr.nums.1v"></span></div>
+              <div class="row"><span class="k" data-i18n="arr.nums.2k"></span><span class="v" data-i18n="arr.nums.2v"></span></div>
+              <div class="row"><span class="k" data-i18n="arr.nums.3k"></span><span class="v" data-i18n="arr.nums.3v"></span></div>
+            </div>
+          </div>
+
+          <div class="note b" data-i18n="arr.dayone"></div>
+        </section>
+
+        <!-- ============ 5 离境 ============ -->
+        <section class="view" id="v-dep">
+          <div class="hd"><div>
+            <h2 data-i18n="dep.heading"></h2>
+            <p data-i18n="dep.sub"></p>
+          </div></div>
+
+          <div class="note b" data-i18n="dep.note"></div>
+
+          <div class="card">
+            <div class="ct" style="font-size:13.5px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:7px;margin-bottom:9px" data-i18n="dep.when.title"></div>
+            <label class="fld"><span data-i18n="ui.tax.purchase_row"></span><input type="date" id="shopDate"></label>
+            <label class="fld tax-field"><span data-i18n="ui.tax.route"></span>
+              <select id="taxRoute">
+                <option value="port" data-i18n="dep.two.k2"></option>
+                <option value="instant" data-i18n="dep.two.k1"></option>
+              </select>
+            </label>
+            <label class="fld tax-field" id="agreementField" hidden><span data-i18n="ui.tax.agreementDeadline"></span><input type="date" id="agreementDeadline"></label>
+            <div class="amtrow">
+              <input type="number" id="shopAmt" min="0" max="1000000000" step="0.01" placeholder="0" aria-label="CNY">
+              <span class="cur">CNY</span>
+              <select id="curSel">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="RUB">RUB</option>
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="SGD">SGD</option>
+                <option value="HKD">HKD</option>
+                <option value="THB">THB</option>
+                <option value="MYR">MYR</option>
+              </select>
+            </div>
+            <div id="taxRes" style="margin-top:11px"></div>
+          </div>
+
+          <div class="card">
+            <div class="ct" style="font-size:13.5px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:7px;margin-bottom:9px" data-i18n="dep.two.title"></div>
+            <div class="rows">
+              <div class="row"><span class="k" data-i18n="dep.two.k1"></span><span class="v" data-i18n="dep.two.v1"></span></div>
+              <div class="row"><span class="k" data-i18n="dep.two.k2"></span><span class="v" data-i18n="dep.two.v2"></span></div>
+            </div>
+            <div class="note o" style="margin:11px 0 0" data-i18n="dep.merge"></div>
+          </div>
+
+          <div class="card" style="background:#FFFDF8;border-color:#F7E3C4">
+            <div class="ct" style="font-size:13.5px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:7px;margin-bottom:9px" data-i18n="dep.before.title"></div>
+            <div class="cs" style="font-size:12px;color:var(--ink2);line-height:1.7" data-i18n="dep.before.body"></div>
+          </div>
+        </section>
+
+      </div>
+
+      <section class="route-detail" id="routeDetail" role="dialog" aria-modal="true" aria-labelledby="detailTitle" hidden>
+        <div class="detail-surface">
+          <button class="detail-back" type="button" id="detailBack" data-act="closeDest"><span aria-hidden="true">←</span><span data-i18n="home.detail.close"></span></button>
+          <div class="detail-layout">
+            <figure class="detail-figure"><img id="detailImage" src="assets/heritage-axis.jpg" alt="" width="498" height="498"><figcaption data-i18n="home.artNote"></figcaption></figure>
+            <div class="detail-copy"><span class="eyebrow" data-i18n="home.detail.title"></span><h2 id="detailTitle"></h2><p class="detail-description" id="detailDescription"></p><div class="bgs" id="detailBadges"></div><p class="detail-status" data-i18n="home.detail.status"></p><p class="detail-notice" id="detailNotice" data-i18n="home.detail.note"></p><button class="btn" type="button" data-act="detailPrep"><span data-i18n="home.detail.cta"></span><span aria-hidden="true">→</span></button><button class="btn alt" type="button" data-act="detailAsk" data-i18n="home.detail.ask"></button></div>
+          </div>
+        </div>
+      </section>
+
+      <nav class="tabs">
+        <button class="on" data-v="exp" data-act="go">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.4 8.6l-1.9 4.4-4.4 1.9 1.9-4.4 4.4-1.9z"/></svg>
+          <span data-i18n="nav.explore"></span>
+        </button>
+        <button data-v="ask" data-act="go">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.8 9.7a2.3 2.3 0 113.6 2.7c-.6.5-1.1.9-1.1 1.7"/><circle cx="12.3" cy="16.9" r="1"/></svg>
+          <span data-i18n="nav.ask"></span>
+        </button>
+        <button data-v="prep" data-act="go">
+          <svg viewBox="0 0 24 24"><path d="M9 5h10M9 12h10M9 19h10"/><path d="M4.4 5l1 1.2L7 4.4M4.4 12l1 1.2L7 11.4M4.4 19l1 1.2L7 18.4"/></svg>
+          <span data-i18n="nav.prep"></span>
+        </button>
+        <button data-v="arr" data-act="go">
+          <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <span data-i18n="nav.arr"></span>
+        </button>
+        <button data-v="dep" data-act="go">
+          <svg viewBox="0 0 24 24"><path d="M15 3h4a2 2 0 012 2v14a2 2 0 01-2 2h-4"/><path d="M10 17l5-5-5-5"/><path d="M15 12H3"/></svg>
+          <span data-i18n="nav.dep"></span>
+        </button>
+      </nav>
+
+      <div class="ov" id="ov">
+        <div class="ovzh" data-i18n="ov.hint"></div>
+        <h3 id="ovTitle">Please read this at the front desk</h3>
+        <div class="q" id="ovBody"></div>
+        <button class="btn" style="margin-top:22px" data-act="ovOff" id="ovClose">Close</button>
+      </div>
+
+    </div>
+  </div>
+
+  <aside class="notes" id="notes" hidden>
+    <div class="nhead">
+      <h3>内部说明（不面向游客）</h3>
+      <div class="nsub">右侧面板只给评审/运营看，手机里的内容才是产品。</div>
+    </div>
+    <div id="livePanel"></div>
+    <div id="noteBody"></div>
+  </aside>
+
+</div>
+<script defer src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+<script defer src="cloud-config.js"></script>
+<script defer src="cloud.js?v=20261116-ui2"></script>
+<script defer src="app.js?v=20261116-ui2"></script>
+</body>
+</html>

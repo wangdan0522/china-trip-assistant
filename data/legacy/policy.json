@@ -1,0 +1,87 @@
+{
+  "version": "2026.08",
+  "checkedAt": "2026-10-14",
+  "source": {
+    "authority": "国家移民管理局",
+    "document": "2026-08 公告",
+    "secondary": "中国签证申请服务中心官方 FAQ"
+  },
+  "expiry": {
+    "unilateralTrial": "2026-12-31",
+    "russia": "2027-12-31",
+    "brunei": null
+  },
+  "stats": [
+    {
+      "value": "50",
+      "unit": "",
+      "label": { "en": "countries visa-free<br>up to 30 days", "zh": "国单方面免签<br>停留 30 天" },
+      "hot": false
+    },
+    {
+      "value": "240",
+      "unit": "h",
+      "label": { "en": "transit visa-free<br>57 countries", "zh": "过境免签<br>57 国适用" },
+      "hot": false
+    },
+    {
+      "value": "30",
+      "unit": "d",
+      "label": { "en": "Hainan only<br>61 countries", "zh": "海南免签<br>61 国适用" },
+      "hot": true
+    }
+  ],
+  "notes": [
+    {
+      "tone": "o",
+      "text": {
+        "en": "<b>Trial policy, with an expiry date.</b> 48 of the 50 visa-free arrangements are trials running only to <b>31 Dec 2026</b>. “Can I come” is a question with a shelf life — worth checking before you book.",
+        "zh": "<b>试行政策，有保质期。</b>50 国里有 48 国是「试行」，<b>施行至 2026-12-31</b>。「能不能来」是有有效期的，订票前值得先确认。"
+      }
+    },
+    {
+      "tone": "b",
+      "text": {
+        "en": "Most people from the 50 countries <b>won’t need a visa at all</b> — but the same passport can get a different answer for a different itinerary. This page only gives the ballpark. <b>The verdict needs your specifics.</b>",
+        "zh": "50 国的大多数人<b>根本不用办签证</b>——但同一本护照，行程不同，结论可能完全不同。这一页只给大概。 <b>要结论得看你的具体情况。</b>"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "title": { "en": "Pick your window", "zh": "选时间" },
+      "desc": { "en": "Weather, crowds, price. Avoid the three domestic peak weeks.", "zh": "天气、人流、价格。避开国内三个高峰周。" },
+      "when": { "en": "days", "zh": "几天" },
+      "hot": false
+    },
+    {
+      "n": 2,
+      "title": { "en": "Book flights & stays", "zh": "订机票住宿" },
+      "desc": { "en": "Some hotels can only take foreign guests if licensed — most can, and we tell you how to check.", "zh": "部分酒店接待外国客人有资质要求——多数没问题，我们告诉你怎么确认。" },
+      "when": { "en": "weeks", "zh": "几周" },
+      "hot": false
+    },
+    {
+      "n": 3,
+      "title": { "en": "Settle the visa question", "zh": "解决签证问题" },
+      "desc": { "en": "Likely not needed. If needed, allow 4–6 weeks.", "zh": "大概率不用办。若需要，预留 4–6 周。" },
+      "when": { "en": "4–6 wks", "zh": "4–6 周" },
+      "hot": true
+    },
+    {
+      "n": 4,
+      "title": { "en": "Prep before you fly", "zh": "出发前准备" },
+      "desc": { "en": "Set up payments, data, WeChat. This is where most first-timers get caught out.", "zh": "搞定支付、网络、微信。第一次来的人多半在这里翻车。" },
+      "when": { "en": "1–2 days", "zh": "1–2 天" },
+      "hot": false
+    },
+    {
+      "n": 5,
+      "title": { "en": "Arrive & register", "zh": "落地与登记" },
+      "desc": { "en": "Immigration card, then accommodation registration within 24 hours.", "zh": "入境卡，然后 24 小时内办住宿登记。" },
+      "when": { "en": "day 1", "zh": "第 1 天" },
+      "hot": false
+    }
+  ]
+}

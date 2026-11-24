@@ -1,0 +1,323 @@
+{
+  "version": "2026.10",
+  "items": [
+    {
+      "id": "safety",
+      "action": "answer",
+      "k": [
+        "safe",
+        "safety",
+        "danger",
+        "crime",
+        "security",
+        "安全",
+        "危险"
+      ],
+      "q": {
+        "en": "Is China safe?",
+        "zh": "中国安全吗？"
+      },
+      "a": {
+        "en": "Main-street safety in major Chinese cities is on the good side globally, and violent crime against tourists is rare. What actually catches visitors out isn&rsquo;t danger &mdash; it&rsquo;s <b>scams</b>.",
+        "zh": "主要城市的街头治安在全球范围内属于较好的一档，针对游客的暴力犯罪很少见。真正要小心的不是「危险」，是<b>「套路」</b>。"
+      },
+      "li": {
+        "en": [
+          "Watch belongings in crowds &mdash; metro, shopping streets, park gates",
+          "Anyone approaching you near a sight to invite you to &ldquo;tea&rdquo;, an &ldquo;exhibition&rdquo; or a &ldquo;jade shop&rdquo;: decline flatly. It is the most common trap.",
+          "Disputes: call <b>110</b>. No Chinese? Ask your hotel front desk to help."
+        ],
+        "zh": [
+          "人流密集处（地铁、步行街、景区入口）注意随身财物",
+          "景区周边主动搭讪、拉你去「喝茶 / 看展 / 买玉」的，一律婉拒——这是最常见的消费陷阱",
+          "遇到纠纷打 <b>110</b>；语言不通可先请酒店前台协助"
+        ]
+      },
+      "src": {
+        "en": "Basis: MPS public security guidance and travel advisories for major Chinese cities, 2026.",
+        "zh": "依据：公安部治安提示与 2026 年主要城市旅行提示。"
+      }
+    },
+    {
+      "id": "phone",
+      "action": "answer",
+      "k": [
+        "phone",
+        "sim",
+        "esim",
+        "google",
+        "whatsapp",
+        "vpn",
+        "internet",
+        "wifi",
+        "roaming",
+        "手机",
+        "上网",
+        "网络",
+        "翻墙"
+      ],
+      "q": {
+        "en": "Will my phone work? Google / WhatsApp?",
+        "zh": "我的手机还能用吗？Google、WhatsApp 能上吗？"
+      },
+      "a": {
+        "en": "You&rsquo;ll have internet &mdash; but not the apps you live on. <b>Google, Gmail, Google Maps, WhatsApp, YouTube, Instagram and Facebook do not open on mainland networks</b>, on mobile data or hotel Wi-Fi alike.",
+        "zh": "能上网，但不能直接用。<b>Google、Gmail、Google 地图、WhatsApp、YouTube、Instagram、Facebook 在中国大陆网络下都打不开</b>——无论连移动网络还是酒店 WiFi。"
+      },
+      "li": {
+        "en": [
+          "<b>International roaming</b> (keep your own SIM): simplest, routes abroad, those apps work &mdash; but about USD 5&ndash;15/day",
+          "<b>Travel eSIM with overseas routing</b>: the common choice, no VPN needed, live on landing",
+          "<b>Local SIM + VPN</b>: gets you a +86 number, but you must <b>install the VPN before you fly</b> &mdash; VPN sites don&rsquo;t open once you&rsquo;re in China"
+        ],
+        "zh": [
+          "<b>国际漫游</b>（继续用自己的卡）：最省事，走境外网关，这些 App 正常；缺点是贵，约 5&ndash;15 美元/天",
+          "<b>国际旅行 eSIM</b>（多数人的选择）：数据走境外路由，不用装 VPN，落地即用",
+          "<b>本地 SIM + VPN</b>：能拿到 +86 号码，但必须<b>出发前就装好 VPN</b>（到了中国，VPN 网站本身打不开）"
+        ]
+      },
+      "warn": true,
+      "src": {
+        "en": "Basis: carrier roaming terms and independent 2026 field reports on eSIM routing. &ldquo;eSIM&rdquo; alone does not guarantee access &mdash; only overseas-routed ones do. When data routes overseas, Chinese apps like Alipay and Amap may fail: keep your home SIM for SMS.",
+        "zh": "依据：运营商漫游条款与 2026 年 eSIM 路由实测。「eSIM」不等于「能上」——只有走境外路由的才行。数据走境外路由时，支付宝、高德地图这类中国 App 可能报错或功能受限，所以最稳的组合是「境外 eSIM 走数据 + 保留原号收短信」。"
+      }
+    },
+    {
+      "id": "language",
+      "action": "answer",
+      "k": [
+        "language",
+        "english",
+        "chinese",
+        "translate",
+        "menu",
+        "speak",
+        "语言",
+        "中文",
+        "翻译"
+      ],
+      "q": {
+        "en": "I don&rsquo;t speak Chinese.",
+        "zh": "不懂中文怎么办？"
+      },
+      "a": {
+        "en": "Airports, chain hotels in big cities and major sights are mostly workable in English. Step off that line &mdash; taxis, small restaurants, smaller cities &mdash; and it&rsquo;s Chinese almost everywhere.",
+        "zh": "机场、大城市的连锁酒店、热门景区，英文基本够用。一旦离开这条线——出租车、街边小店、小城市——几乎全是中文。"
+      },
+      "li": {
+        "en": [
+          "Improving fast: Tiantan Park has added <b>60+ AI translation devices</b>, the Summer Palace runs English visitor surveys, and airports are rolling out multilingual guidance",
+          "<b>Self-help kit</b>: a translation app (download offline packs first) + a screenshot of your destination&rsquo;s name in Chinese + your hotel&rsquo;s Chinese card",
+          "Don&rsquo;t struggle to ask: <b>show the driver the Chinese address</b> &mdash; far faster than saying it in English"
+        ],
+        "zh": [
+          "这条线正在快速改善：天坛公园已引入 <b>60 余台 AI 翻译设备</b>，颐和园做了英文版游客问卷，多地机场铺开多语种引导",
+          "<b>自助三件套</b>：翻译 App（离线包先下好）+ 把目的地中文名截图存相册 + 拿一张酒店的中文名片",
+          "不确定就别硬问：<b>把中文地址给司机看</b>，比用英文说快得多"
+        ]
+      },
+      "src": {
+        "en": "Basis: park authority announcements and airport service notices, 2026.",
+        "zh": "依据：园区管理方公告与 2026 年机场服务通报。"
+      }
+    },
+    {
+      "id": "payment",
+      "action": "answer",
+      "k": [
+        "pay",
+        "money",
+        "cash",
+        "card",
+        "alipay",
+        "wechat pay",
+        "currency",
+        "支付",
+        "付钱",
+        "现金",
+        "钱"
+      ],
+      "q": {
+        "en": "How do I pay? Is cash still usable?",
+        "zh": "怎么付钱？现金还有用吗？"
+      },
+      "a": {
+        "en": "China runs on QR codes almost everywhere &mdash; but <b>you don&rsquo;t need a Chinese bank account</b>. Foreign cards bind directly.",
+        "zh": "中国几乎是「扫码社会」，但<b>你不必办中国银行卡</b>——境外卡可以直接绑。"
+      },
+      "li": {
+        "en": [
+          "<b>Nihao China</b> (UnionPay, tourism-board endorsed): bind an overseas UnionPay card, or top up a travel wallet with Visa / Mastercard / JCB. All English, no Chinese account.",
+          "<b>Alipay / WeChat Pay</b>: &ldquo;bind foreign card&rdquo; covers 7 major card networks; some regional wallets can also scan directly",
+          "<b>Cash</b>: RMB is legal tender and works everywhere face-to-face. Carry a little &mdash; 60,000+ bank branches and ~2,300 exchange points nationwide, most major ATMs take foreign cards"
+        ],
+        "zh": [
+          "<b>Nihao China</b>（中国银联推出、文旅局推荐）：可绑境外银联卡，也可用 Visa / Mastercard / JCB 给旅行钱包充值，全英文、无需中国账户",
+          "<b>支付宝 / 微信支付</b>：支付宝「外卡内绑」支持 7 大国际卡组织；部分境外钱包可直接扫码",
+          "<b>现金</b>：人民币是法定货币，所有面对面场景都能用。建议备少量——全国超 <b>6 万家</b>银行网点、近 <b>2300 个</b>兑换点，主要银行 ATM 支持境外卡取现"
+        ]
+      },
+      "fees": {
+        "en": [
+          "WeChat Pay with a foreign card: <b>no platform fee under CNY 200</b> per transaction, 3% above",
+          "Alipay with an international credit card: <b>3%</b> flat"
+        ],
+        "zh": [
+          "微信支付用境外卡：单笔 <b>200 元以内免平台服务费</b>，超出收 3%",
+          "支付宝用国际信用卡：统一收 <b>3%</b>"
+        ]
+      },
+      "tips": {
+        "en": [
+          "<b>Tell your bank</b> before you travel you&rsquo;ll be in China &mdash; it cuts fraud blocks sharply",
+          "Carry <b>two cards from different banks</b>; <b>turn the VPN off</b> when binding &mdash; a mismatched IP triggers security blocks"
+        ],
+        "zh": [
+          "<b>出发前告诉你的发卡行</b>要去中国，能大幅降低风控拦截",
+          "准备<b>两张不同银行</b>的卡；绑卡时<b>先关掉 VPN</b>（IP 不匹配会触发安全拦截）"
+        ]
+      },
+      "src": {
+        "en": "Basis: UnionPay / Nihao China official terms, 2026; card-network fee schedules.",
+        "zh": "依据：中国银联 / Nihao China 官方口径 2026；各卡组织费率表。"
+      }
+    },
+    {
+      "id": "cost",
+      "action": "answer",
+      "k": [
+        "cost",
+        "price",
+        "expensive",
+        "budget",
+        "how much",
+        "花费",
+        "贵",
+        "预算",
+        "多少钱"
+      ],
+      "q": {
+        "en": "How much will it cost?",
+        "zh": "会花多少钱？"
+      },
+      "a": {
+        "en": "Flights and hotels are the big items; day-to-day spending often lands lower than most Western visitors expect. But there are <b>three friction costs</b> nobody warns you about.",
+        "zh": "机票和住宿是大头，日常消费往往比多数欧美游客预期的低。但有三笔「摩擦成本」没人提前告诉你。"
+      },
+      "li": {
+        "en": [
+          "1 &nbsp;Payment platform fee: foreign cards via Alipay / WeChat, mostly <b>3%</b>",
+          "2 &nbsp;Your bank&rsquo;s foreign transaction fee: usually another <b>0&ndash;3%</b>",
+          "3 &nbsp;Currency conversion spread &mdash; choosing &ldquo;pay in my currency&rdquo; at the terminal usually gives a worse rate"
+        ],
+        "zh": [
+          "① 移动支付平台服务费：境外卡走支付宝 / 微信，多为 <b>3%</b>",
+          "② 发卡行的境外交易手续费：通常再加 <b>0&ndash;3%</b>",
+          "③ 货币转换差价——刷卡时如果选择「以本币结算」，汇率往往更差"
+        ]
+      },
+      "tips": {
+        "en": [
+          "Use Nihao China: <b>no extra platform fee</b>, settled at the UnionPay rate",
+          "Bring an overseas UnionPay card: swipe directly for big items and skip the 3%",
+          "Keep single transactions <b>under CNY 200</b> on WeChat Pay to avoid the platform fee"
+        ],
+        "zh": [
+          "用 Nihao China：<b>无额外平台手续费</b>，按银联汇率结算",
+          "带一张境外银联卡：大额直接刷卡，避开 3% 平台费",
+          "把单笔控制在 <b>200 元以内</b>：微信支付免平台服务费"
+        ]
+      },
+      "tail": {
+        "en": "Shopping can refund part of it: the refund threshold is <b>CNY 200</b>, and over <b>8,000</b> stores offer refund-on-the-spot. See the Leaving screen.",
+        "zh": "购物还能退回来一部分：离境退税起退点 <b>200 元</b>，全国「即买即退」商店已超 <b>8000 家</b>。详见「离境」那一屏。"
+      },
+      "src": {
+        "en": "Basis: published card-network and platform fee schedules; we deliberately do not quote a daily spend figure &mdash; it varies too much to be honest as one number.",
+        "zh": "依据：公开的卡组织与平台费率表；这里刻意不给「一天花多少钱」的绝对值——个体差异太大，拍一个数字反而不诚实。"
+      }
+    },
+    {
+      "id": "visa",
+      "action": "judge",
+      "k": [
+        "visa",
+        "visa-free",
+        "passport",
+        "entry",
+        "免签",
+        "签证",
+        "入境"
+      ],
+      "q": {
+        "en": "Do I need a visa?",
+        "zh": "签证 / 免签难吗？"
+      },
+      "a": {
+        "en": "If your passport is from one of 50 countries, most likely <b>no visa</b> &mdash; up to 30 days for tourism, business, family visits, exchange or transit. Two catches: your eligibility may have a shelf life, and a different itinerary gives a completely different answer.",
+        "zh": "如果你来自这 50 个国家之一，大概率<b>不用办签证</b>。但要小心两件事：你的资格可能「有保质期」，而且换个走法结论完全不同。"
+      },
+      "li": {
+        "en": [
+          "<b>50 countries unilateral visa-free</b>: 30 days for tourism, family, business, exchange, transit &mdash; 48 of them are trials, <b>running to 31 Dec 2026</b>",
+          "<b>240-hour transit visa-free, 57 countries</b>: onward to a third country with a connecting ticket, 10 days, 65 ports",
+          "<b>Hainan 30-day visa-free, 61 countries</b>: within Hainan province only",
+          "Travel documents / temporary certificates are <b>not eligible</b>; work and study are <b>outside all visa-free schemes</b>"
+        ],
+        "zh": [
+          "<b>单方面免签 50 国</b>：旅游、探亲、商务、交流、过境，停留不超过 30 天可免签入境。其中 48 国为「试行」，<b>施行至 2026-12-31</b>",
+          "<b>240 小时过境免签 57 国</b>：经中国前往第三国、持联程客票，可停留 10 天，65 个口岸",
+          "<b>海南 30 天免签 61 国</b>：仅限海南省行政区域内",
+          "持旅行证、临时证件<b>不适用</b>；来华工作、学习<b>不在免签范围</b>"
+        ]
+      },
+      "yes": true,
+      "src": {
+        "en": "Basis: National Immigration Administration announcement, Aug 2026; Chinese Visa Application Service Centre FAQ.",
+        "zh": "依据：国家移民管理局 2026-08 公告；中国签证申请服务中心官方 FAQ。"
+      }
+    },
+    {
+      "id": "help",
+      "action": "answer",
+      "k": [
+        "emergency",
+        "help",
+        "police",
+        "hospital",
+        "lost",
+        "call",
+        "求助",
+        "出事",
+        "报警",
+        "丢"
+      ],
+      "q": {
+        "en": "Who do I call if something goes wrong?",
+        "zh": "出事了找谁？"
+      },
+      "a": {
+        "en": "China runs an official multilingual help line for foreigners that almost no travel product bothers to tell you about.",
+        "zh": "中国有一套给外国人的官方多语种求助通道，但几乎没有旅游产品会主动告诉你。"
+      },
+      "li": {
+        "en": [
+          "<b>12367</b> &mdash; National Immigration Administration hotline, <b>multilingual</b>: entry, stay, registration",
+          "<b>110 / 120 / 119</b> &mdash; police / ambulance / fire",
+          "Your own embassy in China: lost documents, emergencies",
+          "Solved already: a hotel refusing foreign guests for &ldquo;no foreign-related qualification&rdquo; is <b>not valid</b> in China &mdash; we turned that into the card you can show on the spot, on the In China screen"
+        ],
+        "zh": [
+          "<b>12367</b>｜国家移民管理局热线，<b>多语种</b>，管出入境、居留、住宿登记这类问题",
+          "<b>110 / 120 / 119</b>｜警察 / 急救 / 火警",
+          "本国驻华使领馆：证件丢失、紧急情况",
+          "一个已经解决的旧问题：酒店以「没有涉外资质」为由拒住外国客人，在中国<b>不成立</b>——这条我们做成了可当场出示的话术，在「在路上」那一屏"
+        ]
+      },
+      "src": {
+        "en": "Basis: NIA published hotline information, 2026; MPS / hotel-industry notices.",
+        "zh": "依据：国家移民管理局公开热线信息 2026；公安部及旅馆业相关通知。"
+      }
+    }
+  ]
+}

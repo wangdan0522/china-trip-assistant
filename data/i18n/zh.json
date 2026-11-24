@@ -1,0 +1,732 @@
+{
+  "code": "zh",
+  "name": "Chinese",
+  "native": "简体中文",
+  "reviewStatus": "native",
+  "reviewNote": "native 仅表示文案写作状态，不表示法律审查或底层事实核验已完成。",
+  "dir": "ltr",
+  "ui": {
+    "app.name": "中国旅行助手",
+    "app.tagline": "从心动，到出发。",
+    "ui.retry": "重试",
+    "ui.status.loading": "正在加载…",
+    "home.account": "我的账户",
+    "home.browse": "寻找旅行灵感",
+    "home.ask": "聊聊我的疑问",
+    "home.destinations": "在这里，找到想去的理由",
+    "home.destinations.sub": "不必先有计划，从喜欢的体验开始。",
+    "home.view": "看看这条路线",
+    "home.detail.close": "返回探索",
+    "home.detail.title": "你的下一段旅行",
+    "home.detail.cta": "看看出发前要准备什么",
+    "home.detail.ask": "关于这条路线，我想问…",
+    "home.detail.note": "灵感参考，不是可购买的套餐。预约、证件和票务条件请向具体场馆确认。",
+    "home.entry.title": "第一次来？这些也能先了解",
+    "home.entry.sub": "不用一次弄懂所有事，从你关心的开始。",
+    "home.entry.policy": "我能免签吗？",
+    "home.entry.policy.sub": "按护照和行程核对条件",
+    "home.entry.prep": "出发前准备什么？",
+    "home.entry.prep.sub": "支付、网络、住宿与证件",
+    "home.entry.refund": "购物后怎么退税？",
+    "home.entry.refund.sub": "了解不同方式和时间提醒",
+    "home.footer": "好奇心先行，准备慢慢来。",
+    "home.artNote": "AI 旅行灵感插画",
+    "home.photoCredit": "AI 生成插画，不是景点实拍",
+    "home.detail.status": "预约信息待逐个场馆核实。",
+    "home.section.label": "灵感手记",
+    "home.essentials.label": "旅行准备指南",
+    "home.ask.cta": "按我的情况查入境条件",
+    "app.lang": "语言",
+    "nav.explore": "探索",
+    "nav.ask": "答疑",
+    "nav.prep": "准备",
+    "nav.arr": "在路上",
+    "nav.dep": "离境",
+    "exp.heading": "探索中国",
+    "exp.sub": "发现值得出发的风景与日常",
+    "exp.hero.badge": "第一次中国旅行，也可以很从容",
+    "exp.hero.title": "下一个故事，<br>从中国开始。",
+    "exp.hero.body": "穿过古城与山水，遇见街巷里的烟火气。不必先做好计划，从一份好奇开始。",
+    "exp.season.heading": "什么时候来最好",
+    "exp.season.em": "天气 vs 人流",
+    "exp.season.1m": "3&ndash;4 月",
+    "exp.season.1d": "樱花与回暖，人开始多",
+    "exp.season.2m": "5 月 / 9&ndash;10 月",
+    "exp.season.2d": "公认最舒服的两段",
+    "exp.season.3m": "11 月",
+    "exp.season.3d": "深秋、人少、价低",
+    "exp.season.4m": "春节 / 五一 / 国庆",
+    "exp.season.4d": "国内出行高峰，票价与景区人流到顶",
+    "exp.policy.heading": "政策 · 我能来吗",
+    "exp.policy.em": "概览，不是判定",
+    "exp.policy.cta": "30 秒算一下我的情况 &rarr;",
+    "exp.flow.heading": "流程 · 从想去到落地",
+    "exp.flow.em": "全程五步",
+    "exp.flow.cta": "看完整的准备清单 &rarr;",
+    "ask.heading": "答疑",
+    "ask.sub": "说说你在犹豫什么",
+    "ask.intro": "订不下来一张机票，通常不是因为流程不会办，是某个顾虑没人给过一句准话。用你自己的话问，或点下面一条。",
+    "ask.placeholder": "输入你的问题…",
+    "ask.send": "发送",
+    "ask.judge.heading": "我这种情况能不能去",
+    "ask.judge.note": "这一栏只回答一件事：<b>按你的具体情况，走不走得通。</b>结论由引擎算，不由模型随口写。",
+    "ask.judge.cta": "用我的情况算一遍 &darr;",
+    "ask.next.cta": "结论是「能来」，接下来怎么走 &rarr;",
+    "fld.nationality": "国籍",
+    "fld.passport": "护照类型",
+    "fld.purpose": "出行目的",
+    "fld.days": "计划停留天数",
+    "fld.port": "入境口岸",
+    "fld.next": "离境后前往",
+    "opt.passport.ord": "普通护照",
+    "opt.passport.other": "旅行证 / 临时证件",
+    "opt.purpose.tour": "旅游观光",
+    "opt.purpose.biz": "经商",
+    "opt.purpose.fam": "探亲访友",
+    "opt.purpose.exg": "交流访问",
+    "opt.purpose.tr": "过境前往第三国",
+    "opt.purpose.work": "工作学习采访",
+    "opt.next.home": "回国 / 原路返回",
+    "opt.next.third": "第三国或地区",
+    "opt.port.PVG": "上海浦东",
+    "opt.port.PEK": "北京首都",
+    "opt.port.CAN": "广州白云",
+    "opt.port.HAK": "海口",
+    "opt.port.SYX": "三亚",
+    "opt.port.SZX": "深圳宝安",
+    "prep.heading": "出行准备",
+    "prep.sub": "决定了要去之后，按顺序做这几件事",
+    "prep.no_trip": "<b>还没有行程？</b>先去「探索」看看中国，或去「答疑」算一下你能不能免签。",
+    "prep.explore": "探索",
+    "prep.route.title": "你的入境路径",
+    "prep.route.verdict": "结论",
+    "prep.route.expiry": "政策有效期至",
+    "prep.route.count": "停留自何处起算",
+    "prep.route.count_value": "入境次日零时",
+    "prep.before.heading": "出发前",
+    "prep.before.1": "装好 <b>微信</b>，按注册页面提示完成验证。境外手机号码也可使用，并非一律需要 +86 号码。",
+    "prep.before.2": "向支付服务商和银行确认支持的卡片及验证要求，提前试用并准备备用支付方式。",
+    "prep.before.3": "向运营商确认合规的漫游、SIM 或旅行 eSIM 方案、设备兼容性、费用和可用服务。",
+    "prep.before.4": "下载<b>离线翻译包</b>，并给酒店的中文名与地址截个图",
+    "prep.before.5": "随身带与事由相符的材料——邀请函、机酒订单",
+    "prep.imm.heading": "入境卡 · 最容易填错的地方",
+    "prep.imm.1k": "姓名顺序",
+    "prep.imm.1v": "按护照信息及实际表格的姓、名字段分别填写。",
+    "prep.imm.2k": "证件号",
+    "prep.imm.2v": "照填实际用于出入境的旅行证件号码。",
+    "prep.imm.3k": "日期格式",
+    "prep.imm.3v": "按实际表格要求的日期格式填写，不假定所有表格格式相同。",
+    "prep.imm.4k": "住址",
+    "prep.imm.4v": "备好住宿名称、完整地址和联系方式，按实际字段填写。",
+    "prep.time.heading": "时间线倒排",
+    "prep.time.1t": "T&minus;45 天",
+    "prep.time.1d": "再核一次签证结论——政策会变",
+    "prep.time.2t": "T&minus;30 天",
+    "prep.time.2d": "订机票与首段住宿",
+    "prep.time.3t": "T&minus;14 天",
+    "prep.time.3d": "支付、网络、翻译——在家里装好并试通",
+    "prep.time.4t": "T&minus;1 天",
+    "prep.time.4d": "离线化必要内容；把地址截图",
+    "arr.heading": "在路上",
+    "arr.sub": "会真的出事的那几件",
+    "arr.reg": "<b>确认住宿登记。</b>向酒店或留宿人确认由谁办理、所需证件、当地办理期限及能否线上办理，并保留办妥凭证。不要假定所有情况都必须本人到场。",
+    "arr.hotel.title": "如果酒店说「不能接待外国人」",
+    "arr.hotel.body": "预订前请向酒店确认：能否凭你的实际证件办理入住，并完成所需的住宿登记。若无法办理，请酒店或预订平台协助确认替代住宿。",
+    "arr.hotel.cta": "显示给前台看 &rarr;",
+    "arr.nums.title": "现在就存下来的号码",
+    "arr.nums.1k": "<b>12367</b> &middot; 移民管理局热线，多语种",
+    "arr.nums.1v": "出入境、居留、登记",
+    "arr.nums.2k": "<b>110</b> / <b>120</b> / <b>119</b>",
+    "arr.nums.2v": "警察 / 急救 / 火警",
+    "arr.nums.3k": "你本国驻华使领馆",
+    "arr.nums.3v": "证件丢失、紧急情况",
+    "arr.dayone": "<b>如果计划购物退税：</b>向商店和退税机构确认所需证件、服务码是否适用、离境口岸和实际协议截止日。本应用不生成服务码、不收集证件号码，也不保证各处通用。",
+    "dep.heading": "离境",
+    "dep.sub": "退税：计算提醒与参考估算",
+    "dep.note": "这一屏仅提供<b>日期计算提醒与金额参考估算</b>，不确认退税资格，不做交易、不退款、不垫付、不代办。",
+    "dep.when.title": "购物日期是哪天？",
+    "dep.two.title": "两种退法，两个期限",
+    "dep.two.k1": "即买即退<br>（须办信用卡预授权）",
+    "dep.two.v1": "请查实际协议截止日<br>不自动起算",
+    "dep.two.k2": "离境口岸退税",
+    "dep.two.v2": "购物日至离境<br>不超过90天",
+    "dep.merge": "<b>两种方式的条件不同，需分别核对。</b>请向商店和退税机构确认材料、购物条件及实际期限，不要混用，也不要把时间提醒当作资格确认。",
+    "dep.before.title": "购物前的三个动作",
+    "dep.before.body": "1 &nbsp;向商店确认是否提供你需要的 <b>Tax Free</b> 方式。<br>2 &nbsp;向机构确认所需材料、卡片预授权及费用。<br>3 &nbsp;保存<b>购物日期与实际协议截止日</b>，不要假定两种方式从同一天起算。",
+    "ui.bookable.yes": "护照可线上订",
+    "ui.bookable.partial": "部分需窗口核验",
+    "ui.bookable.no": "仅窗口可订",
+    "ui.bookable.na": "无需预约",
+    "ui.booking.required": "需预约",
+    "ui.booking.verified": "已实测",
+    "ui.booking.unverified": "待实测",
+    "ui.feedback.q": "这条有用吗？",
+    "ui.feedback.yes": "有用",
+    "ui.feedback.no": "没用",
+    "ui.feedback.thanks": "收到，谢谢。",
+    "ui.feedback.improve": "收到，我们会改进这条。",
+    "ui.src.button": "这条回答的依据与日期",
+    "ui.src.default": "条件检查基于版本化受控资料。请逐条核对来源、日期与复核状态，不表示全部资料已经核验。",
+    "ui.fallback.src": "回答限于受控资料，缺失或待复核的信息不靠猜测补全。重要事项请向原始来源或服务提供商确认。",
+    "ui.fallback.text": "这条不在我的规则库里——签证规则上瞎猜，代价是你的一整张机票。下面这些问题我能答，你也可以直接用引擎算一遍自己的情况。",
+    "ui.bot.intro": "你好，我是你的来华行程准备助手。<br><br>我提供<b>受控资料与条件检查</b>，不是确定的官方答案或许可。请核对来源、日期与复核状态，预订前另行确认重要事项。",
+    "ui.me": "你",
+    "ui.status.connected": "API 已连接 · 政策 v{version}",
+    "ui.status.failed": "API 连接失败：{msg}",
+    "ui.status.offline.title": "后端未启动",
+    "ui.status.offline.body": "页面已加载，但数据接口不可用。<br>请在项目目录运行 <code>npm start</code>，再刷新本页。",
+    "ui.tax.leave_by": "提醒截止日：{date}",
+    "ui.tax.expired": "已超过期限",
+    "ui.tax.critical": "临近期限",
+    "ui.tax.ok": "时间充裕",
+    "ui.tax.deadline_row": "时间提醒的截止日",
+    "ui.tax.purchase_row": "购物日",
+    "ui.tax.status_row": "状态",
+    "ui.tax.left": "距提醒截止日还有{days}天，不代表资格确认。",
+    "ui.tax.over": "提醒日期已过，请联系退税机构确认后续处理。",
+    "ov.title": "请把这段给前台看",
+    "ov.hint": "请前台确认所需证件及住宿登记办理方式。",
+    "ov.body": "您好，我有住宿预订。请问办理入住需要哪些证件？贵店能否为我完成住宿登记？<br><br>如无法办理，请帮我联系预订平台，或协助确认其他可接待的酒店。<br><br><b>谢谢。</b>",
+    "ov.close": "关闭",
+    "live.title": "实时数据",
+    "live.weather": "实时天气",
+    "live.fx": "实时汇率",
+    "live.watch": "政策源监测",
+    "live.changed": "有变化 · 待人工复核",
+    "live.unchanged": "无变化",
+    "live.unreachable": "无法访问",
+    "live.cached": "缓存",
+    "live.updated": "更新于 {time}",
+    "live.refund_note": "折算使用每日人民币参考汇率，不是交易报价。",
+    "live.est": "≈ {amount}",
+    "live.source_policy": "国家移民管理局 · 通知公告",
+    "wx.clear": "晴",
+    "wx.cloudy": "多云",
+    "wx.fog": "雾",
+    "wx.drizzle": "小雨",
+    "wx.rain": "雨",
+    "wx.snow": "雪",
+    "wx.storm": "雷雨",
+    "wx.offline": "天气暂不可用",
+    "ask.fees": "费率（最容易忽略）",
+    "ask.tips": "实操要点",
+    "dep.est": "退税估算（约）",
+    "panel.policy": "政策体检",
+    "panel.storage": "数据存储",
+    "panel.ok": "正常",
+    "panel.review": "待人工复核",
+    "panel.expired": "已过期 · 判定已暂停",
+    "panel.db": "SQLite 数据库",
+    "panel.file": "文件降级",
+    "hist.title": "最近算过的",
+    "hist.empty": "还没有记录",
+    "auth.title": "账户 · 邮箱登录",
+    "auth.email": "邮箱地址",
+    "auth.code": "验证码",
+    "auth.sendCode": "发送验证码",
+    "auth.verify": "验证并登录",
+    "auth.signOut": "退出登录",
+    "auth.signedIn": "已登录。已保存的查询记录仅你的账户可见。",
+    "auth.signedOut": "已退出登录，本页已清除私人信息。",
+    "auth.resendIn": "{seconds} 秒后可重发",
+    "auth.codeSent": "验证码已发送，请查看收件箱及垃圾邮件。",
+    "auth.invalidCode": "验证码无效或已过期，请重新获取后再试。",
+    "auth.getCodeFirst": "请先为此邮箱获取验证码。",
+    "auth.wait": "请稍候再试。",
+    "cloud.unavailable": "云服务尚未配置或初始化失败。",
+    "cloud.preview": "当前为本地预览，云功能不可用。请在已部署的应用中使用。",
+    "cloud.domain": "当前域名未获云服务授权，请联系应用管理员。",
+    "cloud.quota": "已达到服务使用限制，请稍后再试。",
+    "cloud.permission": "你没有完成此次云操作的权限。",
+    "cloud.signInRequired": "请重新登录后继续。",
+    "cloud.network": "无法连接云服务，请检查网络后重试。",
+    "cloud.failed": "云操作失败，请重试。",
+    "history.signIn": "登录后可保存查询并查看你的私人历史记录。",
+    "history.save": "保存此次查询",
+    "history.saved": "查询记录已保存至你的账户。",
+    "history.snapshot": "已保存的查询仅是信息快照，不是入境许可。出行前请重新查询。",
+    "feedback.failed": "反馈未提交成功，请重试。",
+    "ai.notice": "可选的 AI 补充仅提供一般旅行建议，不判定资格，也不确认价格或退税金额。请勿输入个人信息。",
+    "ai.supplement": "获取 AI 补充建议",
+    "ai.stop": "停止生成",
+    "ai.label": "AI 补充 · 请独立核实",
+    "ai.generating": "正在生成，回答尚未完成。",
+    "ai.complete": "生成完成。AI 内容可能不准确，重要事项请另行核实。",
+    "ai.incomplete": "生成已停止或中断，回答不完整。",
+    "ai.noModels": "当前没有可用的 AI 模型，请稍后再试。",
+    "ai.privacy": "请输入不超过 1200 字符的问题，勿包含个人信息、证件号、邮箱、电话号码或验证码。",
+    "policy.countdown": "当前规则截止{date}，剩余{days}天",
+    "policy.expired": "此资料截止{date}，请重新核对",
+    "policy.expiryLine": "资料{version} · 截止{date} · 剩余{days}天",
+    "policy.sources": "官方来源",
+    "ui.tax.route": "退税方式",
+    "ui.tax.agreementDeadline": "协议实际截止日，可选",
+    "ui.tax.needsAgreement": "请查看并填写协议截止日",
+    "ui.tax.agreementStatus": "提醒基于你填入的日期，未核验协议",
+    "ui.tax.rateUnavailable": "汇率不可用，未折算外币",
+    "ui.tax.feeUnknown": "未扣手续费，实际金额以退税机构为准",
+    "ui.tax.amountInvalid": "请输入不超过10亿的有效非负金额",
+    "dep.notice.port90": "从购物日加90天，仅作时间提醒，不代表确认退税资格",
+    "dep.notice.needsAgreement": "即买即退有28天政策窗口；未填实际协议截止日，不推算离境日期",
+    "dep.notice.agreementReminder": "仅提醒你填入的实际协议截止日，不核验协议或资格",
+    "dep.estimate.grossRange": "显示购物金额8%–11%扣费前范围，不保证适用税率或到手金额",
+    "ui.validation": "请检查你输入的值。",
+    "ui.serviceUnavailable": "服务暂不可用，请重试。"
+  },
+  "verdict": {
+    "v.title.visa_required": "需要办理签证",
+    "v.title.not_covered": "本工具不覆盖此情况",
+    "v.title.unilateral": "可以免签入境",
+    "v.title.unilateral_over": "你有免签资格，但停留超限",
+    "v.title.mutual": "可以免签入境",
+    "v.title.mutual_over": "互免协定停留超限",
+    "v.title.transit": "可以走 240 小时过境免签",
+    "v.title.transit_over": "过境免签只给 10 天",
+    "v.title.transit_not_met": "过境条件不成立",
+    "v.title.hainan": "可走海南 30 天免签",
+    "v.why.work": "来华<b>工作、学习、采访报道</b>不属于任何免签政策范围，必须在来华前办妥相应签证，与停留天数无关。",
+    "v.why.passport": "免签仅适用于持<b>有效普通护照</b>者。持旅行证、临时或紧急证件等普通护照以外的证件，<b>不适用</b>单方面免签与过境免签。",
+    "v.why.unilateral": "依据<b>单方面免签政策</b>（50 国），持普通护照来华经商、旅游观光、探亲访友、交流访问、过境，停留<b>不超过 30 天</b>可免签入境。",
+    "v.why.unilateral_over": "<b>{country}</b>确实在单方面免签 50 国名单内——但免签只允许停留 <b>不超过 30 天</b>，你计划 {days} 天，<b>超出的部分走不通</b>。",
+    "v.why.mutual": "依据中国与 <b>{country}</b> 之间的<b>互免签证协定</b>，持普通护照可免签入境，停留一般<b>不超过 30 天</b>。",
+    "v.why.mutual_over": "中国与 <b>{country}</b> 的互免签证协定停留上限一般为 30 天，你计划 {days} 天。",
+    "v.why.transit": "你是 <b>{country}</b> 公民，行程为「出发地 → 中国 → <b>第三国或地区</b>」，符合 <b>240 小时过境免签</b>条件。",
+    "v.why.transit_over": "你的过境条件成立，但 240 小时免签的上限是 <b>10 天</b>，你计划 {days} 天。",
+    "v.why.transit_not_met": "240 小时过境免签要求行程为「出发地 → 中国 → <b>第三国或地区</b>」。<b>你的目的地是回国 / 原路返回，出发地与目的地为同一国家，不构成过境。</b>",
+    "v.why.hainan": "你是 <b>{country}</b> 公民，从海南省对外开放口岸入境，可在<b>海南省行政区域内</b>免签停留不超过 30 天。",
+    "v.why.visa_required": "按你选择的行程条件，<b>{country}</b>不符合现行的单方面免签、互免协定、240 小时过境免签或海南免签。",
+    "v.p.work.type": "签证类型按事由选择（Z 工作 / X 学习 / J 记者）",
+    "v.p.work.centre": "需通过中国签证申请服务中心递交",
+    "v.p.work.lead": "建议预留 4&ndash;6 周受理周期",
+    "v.p.pp.apply": "请办理相应签证，或更换为有效普通护照",
+    "v.p.uni.days": "可停留 30 天，你计划 {days} 天，符合",
+    "v.p.uni.midnight": "停留时间自<b>入境次日零时</b>起算",
+    "v.p.uni.ports": "适用于所有对外国人开放的海陆空口岸",
+    "v.p.uni.vs_transit": "你同时符合 <b>240 小时过境免签</b>条件——但单方面免签给你 <b>30 天</b>，我们已替你比较，这条更有利。",
+    "v.p.expiry.warn": "<b>该政策为「试行」，施行至 {expires}</b>",
+    "v.p.expiry.none": "现行安排未设固定截止日期",
+    "v.p.uni.evidence": "建议随身携带邀请函、机酒订单等与事由相符的证明材料",
+    "v.p.uni.trim": "把行程压到 30 天以内 → 可直接免签入境",
+    "v.p.uni.need_visa": "坚持 {days} 天 → 需要申请签证（L 旅游 / M 商务）",
+    "v.p.uni.leave30": "停留时间自入境次日起算，第 30 天必须离境",
+    "v.p.mutual.days": "可停留 30 天，你计划 {days} 天，符合",
+    "v.p.mutual.lists": "互免协定与单方面免签是两套名单，不要混用",
+    "v.p.mutual.official": "协定名单与期限以官方最新公布为准",
+    "v.p.mutual.compress": "压缩到 30 天以内 → 可免签入境",
+    "v.p.mutual.visa": "否则需申请签证",
+    "v.p.tr.days": "可停留不超过 240 小时（10 天），你计划 {days} 天，符合",
+    "v.p.tr.ticket": "须持<b>确定日期及行程的联程客票</b>",
+    "v.p.tr.ports": "可从 24 个省份、<b>65 个开放口岸</b>中任一口岸入境",
+    "v.p.tr.provinces": "活动范围限政策覆盖的 24 个省份，可跨省旅行",
+    "v.p.tr.exclusions": "曾被中国签证机关拒签、或 5 年内有非法出入境等记录者不适用",
+    "v.p.tr.compress": "压到 10 天以内 → 可走 240 小时过境免签",
+    "v.p.tr.visa": "需要更长时间 → 必须申请签证",
+    "v.p.trn.qualify": "你是 {country} 公民，本来可以走这条——但必须真实前往第三国",
+    "v.p.trn.change": "若确实要前往第三国，请把「离境后前往」改为第三国重算",
+    "v.p.trn.normal": "只是往返中国 → 请按普通签证办理",
+    "v.p.hn.port": "你选择的入境口岸符合条件",
+    "v.p.hn.only": "<b>活动范围仅限海南省</b>——若还要去上海、广州等地，这条走不通",
+    "v.p.vr.purpose": "请按出行事由选择签证类型（L 旅游 / M 商务 / Q 探亲等）",
+    "v.p.vr.centre": "通过中国签证申请服务中心递交，建议预留 4&ndash;6 周",
+    "v.p.vr.hainan": "若你只去海南、并从海口或三亚入境，可享 <b>海南 30 天免签</b>",
+    "v.p.vr.transit": "若行程包含前往第三国或地区、且持联程客票，可考虑 <b>240 小时过境免签</b>",
+    "v.byline": "规则计算，不是AI决定。仅供准备参考，入境由主管机关审查。",
+    "v.blocked.title": "资料暂不可用于判断",
+    "v.blocked.why": "相关规则过期、待复核或未覆盖，暂不输出结论。请核对下方原公告。",
+    "v.blocked.point": "更新并核对前不作资格判断。",
+    "v.review.title": "政策可能已经变了",
+    "v.review.why": "官网内容有变动，规则还没人工复核。下面的结论基于 {version} 版本，订机票前请先核对官方最新公告。",
+    "v.review.point": "待复核项：{msg}"
+  },
+  "qa": [
+    {
+      "id": "safety",
+      "action": "answer",
+      "k": [
+        "safe",
+        "safety",
+        "danger",
+        "crime",
+        "security",
+        "安全",
+        "危险"
+      ],
+      "q": "中国安全吗？",
+      "a": "主要城市的街头治安在全球范围内属于较好的一档，针对游客的暴力犯罪很少见。真正要小心的不是「危险」，是<b>「套路」</b>。",
+      "li": [
+        "人流密集处（地铁、步行街、景区入口）注意随身财物",
+        "景区周边主动搭讪、拉你去「喝茶 / 看展 / 买玉」的，一律婉拒——这是最常见的消费陷阱",
+        "遇到纠纷打 <b>110</b>；语言不通可先请酒店前台协助"
+      ],
+      "src": "依据：公安部治安提示与 2026 年主要城市旅行提示。"
+    },
+    {
+      "id": "phone",
+      "action": "answer",
+      "k": [
+        "phone",
+        "sim",
+        "esim",
+        "google",
+        "whatsapp",
+        "vpn",
+        "internet",
+        "wifi",
+        "roaming",
+        "手机",
+        "上网",
+        "网络",
+        "翻墙"
+      ],
+      "q": "我的手机还能用吗？Google、WhatsApp 能上吗？",
+      "a": "手机和应用能否使用取决于设备、运营商、套餐及所连网络，不能保证 Google、WhatsApp 或其他海外应用在每种连接下都可用。",
+      "li": [
+        "出行前向运营商确认国际漫游、覆盖范围、费用和短信接收情况。",
+        "选择合规的本地 SIM 或旅行 eSIM 时，向服务商确认设备兼容性、开通要求和可用服务。",
+        "提前离线保存必要的地址、预订信息和翻译包。"
+      ],
+      "warn": "请遵守当地法规及服务条款。本指南不提供绕过网络限制的操作建议，也不保证海外应用可访问。",
+      "src": "维护说明：这是一般通信准备建议，不是实时网络实测或已核验的运营商报价。现行条款和应用可用性请向服务商确认。"
+    },
+    {
+      "id": "language",
+      "action": "answer",
+      "k": [
+        "language",
+        "english",
+        "chinese",
+        "translate",
+        "menu",
+        "speak",
+        "语言",
+        "中文",
+        "翻译"
+      ],
+      "q": "不懂中文怎么办？",
+      "a": "语言服务因场所和当班人员而异。预订前请向酒店、交通服务商和景区确认目前支持的语言及协助方式。",
+      "li": [
+        "向服务商确认口译是否可用、是否需要预约及有无费用，不要假定现场一定有翻译设备。",
+        "下载离线翻译包，并保存目的地、酒店的中文名称与地址。",
+        "问路时可出示书面的中文地址，重要翻译请再向服务商核对。"
+      ],
+      "src": "一般语言准备建议，不是已核验的设备或多语种服务清单。现行服务请向各提供商确认。"
+    },
+    {
+      "id": "payment",
+      "action": "answer",
+      "k": [
+        "pay",
+        "money",
+        "cash",
+        "card",
+        "alipay",
+        "wechat pay",
+        "currency",
+        "支付",
+        "付钱",
+        "现金",
+        "钱"
+      ],
+      "q": "怎么付钱？现金还有用吗？",
+      "a": "出行前准备备用支付方式，并确认能否使用。绑卡、身份验证和商户受理情况取决于服务提供商及你的实际账户。",
+      "li": [
+        "向钱包服务商确认目前支持的卡片、证件及账户开通步骤。",
+        "向商户确认可接受的支付方式，并在依赖该方式前先测试。",
+        "准备现金备用方案，向提供商确认附近兑换或 ATM 服务、营业时间、卡片受理及费用。"
+      ],
+      "fees": [
+        "平台费用、门槛和现行优惠请以服务商条款及支付页面为准。",
+        "向发卡行确认境外交易、换汇及取现费用。"
+      ],
+      "tips": [
+        "向银行确认是否需要出行通知或额外验证。",
+        "保留备用支付方式和服务商客服信息，不保证开通或付款一定成功。"
+      ],
+      "src": "一般支付准备建议，不是已核验的费率表或受理保证。现行条款请向钱包服务商、商户及发卡行确认。"
+    },
+    {
+      "id": "cost",
+      "action": "answer",
+      "k": [
+        "cost",
+        "price",
+        "expensive",
+        "budget",
+        "how much",
+        "花费",
+        "贵",
+        "预算",
+        "多少钱"
+      ],
+      "q": "会花多少钱？",
+      "a": "请按实际日期和行程向服务商询价后编制预算。机票、住宿、交通、餐饮和活动费用因提供商与预订条件而异。",
+      "li": [
+        "预订前确认总价、包含项目、押金及取消条款。",
+        "向支付服务商和银行确认平台费用及境外交易费用。",
+        "付款前核对换算汇率、价差及结算币种。"
+      ],
+      "tips": [
+        "比较最终应付总额，不只看宣传中的基础价格。",
+        "保留预订确认及服务商书面的价格和费用条款。",
+        "预留备用预算，不要假定必有免手续费优惠或退税。"
+      ],
+      "tail": "购物退税的现行条件及费用请向商店和退税机构确认。「离境」页只提供提醒与参考估算，不保证节省金额。",
+      "src": "一般预算准备建议，不是已核验的价格或费率。现行报价及条款请直接向提供商确认。"
+    },
+    {
+      "id": "visa",
+      "action": "judge",
+      "k": [
+        "visa",
+        "visa-free",
+        "passport",
+        "entry",
+        "免签",
+        "签证",
+        "入境"
+      ],
+      "q": "签证 / 免签难吗？",
+      "a": "请按护照、事由、日期和完整行程核对相关官方公告，不能只看国籍名单。本工具只覆盖部分路线；未覆盖不等于一定需要签证，也不代表已确认入境资格。",
+      "li": [
+        "<b>单方面名单50国</b>：普通护照、规定事由、停留不超过30天。本快照中48国试行至<b>2026-12-31</b>，俄罗斯至<b>2027-12-31</b>；文莱未设固定截止日，仍须定期复核。",
+        "<b>240小时过境名单57国</b>：另需核对前往第三国或地区、确定日期行程的客票、规定口岸和活动区域、证件有效期及其他条件。",
+        "<b>海南名单61国</b>：最长30天、活动限海南，不能当作全国通行许可。",
+        "互免协定尚待逐国复核。非普通证件及工作、学习、采访等情况须另向主管机关确认，本工具不作此类判断。"
+      ],
+      "yes": true,
+      "src": "受控快照2026-11-16：单方面免签常见问题（2026-09-11）、国家移民管理局2026年第4号公告、免办签证的情形（2026-11-02）。请核对来源链接；互免协定未完成逐国复核。"
+    },
+    {
+      "id": "help",
+      "action": "answer",
+      "k": [
+        "emergency",
+        "help",
+        "police",
+        "hospital",
+        "lost",
+        "call",
+        "求助",
+        "出事",
+        "报警",
+        "丢"
+      ],
+      "q": "出事了找谁？",
+      "a": "出行前保存紧急联系方式、住宿信息及服务商客服信息。语言支持和服务可用情况可能不同。",
+      "li": [
+        "保存 <b>12367</b> 用于出入境及停留咨询；依赖前请确认目前的服务范围和语言支持。",
+        "<b>110 / 120 / 119</b>｜警察 / 急救 / 火警；准备好所在位置，语言不通可请附近工作人员协助。",
+        "保存本国领事联系信息，确认丢失证件或遇到紧急情况时如何求助。",
+        "预订前请酒店确认你的实际证件能否办理入住及住宿登记。如有问题，请酒店或预订平台协助寻找替代住宿，不保证一律接待。"
+      ],
+      "src": "一般求助准备建议，不保证语言支持或酒店接待。现行服务请向相关提供方确认。"
+    }
+  ],
+  "dest": {
+    "version": "2026.10",
+    "checkedAt": "2026-10-14",
+    "disclaimer": "主题灵感仅供参考，预约与票务条目尚未逐个实测，订购前请向具体场馆确认。",
+    "categories": [
+      {
+        "id": "all",
+        "name": "全部"
+      },
+      {
+        "id": "his",
+        "name": "古迹"
+      },
+      {
+        "id": "nat",
+        "name": "山水"
+      },
+      {
+        "id": "cit",
+        "name": "都市"
+      },
+      {
+        "id": "foo",
+        "name": "美食"
+      },
+      {
+        "id": "sea",
+        "name": "节令"
+      }
+    ],
+    "items": [
+      {
+        "id": "heritage-axis",
+        "cat": "his",
+        "title": "长城、古都与千年轴线",
+        "desc": "北京中轴线上的一天，比任何纪录片都更直白。",
+        "badges": [
+          "语言友好 高",
+          "建议 4–6 天"
+        ],
+        "booking": {
+          "reservationRequired": true,
+          "passportOnline": "partial",
+          "note": "需实名预约。多数景点持护照可线上预订，少数仍需到窗口核验。",
+          "verified": false
+        }
+      },
+      {
+        "id": "heritage-gardens",
+        "cat": "his",
+        "title": "江南水乡与园林",
+        "desc": "苏州的窗、杭州的湖、乌镇的桥，节奏慢下来才好看。",
+        "badges": [
+          "语言友好 高",
+          "建议 3–5 天"
+        ],
+        "booking": {
+          "reservationRequired": true,
+          "passportOnline": "partial",
+          "note": "热门园林有每日限流，旺季建议提前 3–7 天预订。",
+          "verified": false
+        }
+      },
+      {
+        "id": "nature-southwest",
+        "cat": "nat",
+        "title": "西南山水",
+        "desc": "张家界的峰、九寨沟的水、桂林的江——这一线要留够时间。",
+        "badges": [
+          "转场较多",
+          "建议 6–8 天"
+        ],
+        "booking": {
+          "reservationRequired": true,
+          "passportOnline": "yes",
+          "note": "分时段入园，官方渠道下单时可用护照号。",
+          "verified": false
+        }
+      },
+      {
+        "id": "city-skylines",
+        "cat": "cit",
+        "title": "超级都市与天际线",
+        "desc": "上海、深圳、广州：英文最够用，也最容易上手的第一站。",
+        "badges": [
+          "语言友好 最高",
+          "建议 2–4 天"
+        ],
+        "booking": {
+          "reservationRequired": false,
+          "passportOnline": "yes",
+          "note": "多数景点可现场购票；观景台类建议提前订。",
+          "verified": false
+        }
+      },
+      {
+        "id": "food-trail",
+        "cat": "foo",
+        "title": "为吃一趟",
+        "desc": "成都、西安、广州。菜单大多只有中文——这恰好是最值得用 AI 的地方。",
+        "badges": [
+          "菜单多中文",
+          "建议 3–5 天"
+        ],
+        "booking": {
+          "reservationRequired": false,
+          "passportOnline": "na",
+          "note": "小桌一般不接受预订，现场排队为主。",
+          "verified": false
+        }
+      },
+      {
+        "id": "seasonal",
+        "cat": "sea",
+        "title": "节令限定",
+        "desc": "春节灯会、三月樱花、深秋银杏。同一条线，换个时间完全不同。",
+        "badges": [
+          "需提前订",
+          "看花期定行程"
+        ],
+        "booking": {
+          "reservationRequired": true,
+          "passportOnline": "partial",
+          "note": "高峰日期的名额常提前数周售罄，先确认花期或节庆窗口。",
+          "verified": false
+        }
+      }
+    ],
+    "seasons": [
+      {
+        "months": "3–4 月",
+        "desc": "樱花与回暖，人开始多",
+        "warn": false
+      },
+      {
+        "months": "5 月 / 9–10 月",
+        "desc": "公认最舒服的两段",
+        "warn": false
+      },
+      {
+        "months": "11 月",
+        "desc": "深秋、人少、价低",
+        "warn": false
+      },
+      {
+        "months": "春节 / 五一 / 国庆",
+        "desc": "国内出行高峰，票价与景区人流到顶",
+        "warn": true
+      }
+    ]
+  },
+  "policy": {
+    "version": "2026.11.16",
+    "checkedAt": "2026-11-16",
+    "source": {
+      "authority": "国家移民管理局 / 中国驻外使馆",
+      "document": "单方面免签常见问题（2026-09-11） / 国家移民管理局2026年第4号公告",
+      "secondary": "免办签证的情形（2026-11-02）；互免协定逐国复核未完成",
+      "documents": [
+        { "url": "https://dk.china-embassy.gov.cn/lsfw/202609/t20260911_12020891.htm", "document": "单方面免签常见问题（2026-09-11）" },
+        { "url": "https://www.nia.gov.cn/n741440/n741542/c1796294/content.html", "document": "国家移民管理局2026年第4号公告" },
+        { "url": "https://qa.china-embassy.gov.cn/chn/lsfw/lszj/fhqz/202611/t20261102_12051035.htm", "document": "免办签证的情形（2026-11-02）" }
+      ]
+    },
+    "expiry": {
+      "unilateralTrial": "2026-12-31",
+      "russia": "2027-12-31",
+      "brunei": null
+    },
+    "stats": [
+      {
+        "value": "50",
+        "unit": "",
+        "label": "国单方面免签<br>停留 30 天",
+        "hot": false
+      },
+      {
+        "value": "240",
+        "unit": "h",
+        "label": "过境免签<br>57 国适用",
+        "hot": false
+      },
+      {
+        "value": "30",
+        "unit": "d",
+        "label": "海南免签<br>61 国适用",
+        "hot": true
+      }
+    ],
+    "notes": [
+      {
+        "tone": "o",
+        "text": "<b>不同安排的截止日不同。</b>本快照中48国试行至<b>2026-12-31</b>，俄罗斯至<b>2027-12-31</b>，文莱未设固定截止日。无固定截止日不等于永久有效，预订前仍须核对。"
+      },
+      {
+        "tone": "b",
+        "text": "<b>仅覆盖部分路线，不是全球全部政策。</b>互免协定尚待逐国复核；请结合护照、事由、日期和完整行程核对，概览或名单匹配不等于入境许可。"
+      }
+    ],
+    "steps": [
+      { "n": 1, "title": "选时间与主题", "desc": "先探索地区和季节，再比较实际日期的天气、假期与报价。", "when": "探索时", "hot": false },
+      { "n": 2, "title": "核对入境路径", "desc": "不可退款预订前，按证件和完整行程核对官方条件；申请渠道和实际办理时间请向使领馆确认。", "when": "预订前", "hot": true },
+      { "n": 3, "title": "确认机票与住宿", "desc": "向酒店确认实际证件能否入住、住宿登记如何办理，以及取消条款。", "when": "核对后", "hot": false },
+      { "n": 4, "title": "准备支付与通信", "desc": "向提供商确认现行服务，提前测试，并离线保存地址和必要资料。", "when": "出发前", "hot": false },
+      { "n": 5, "title": "落地并确认登记", "desc": "按实际入境表填写，向酒店或留宿人确认当地登记方式、期限及办妥情况。", "when": "抵达时", "hot": false }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "version": "2026.10",
+  "checkedAt": "2026-10-14",
+  "disclaimer": "预约与购票口径为公开信息整理，逐景点实测状态以 verified 字段标注；未实测条目上线前必须复核。",
+  "categories": [
+    { "id": "all", "en": "All", "zh": "全部" },
+    { "id": "his", "en": "Heritage", "zh": "古迹" },
+    { "id": "nat", "en": "Nature", "zh": "山水" },
+    { "id": "cit", "en": "Cities", "zh": "都市" },
+    { "id": "foo", "en": "Food", "zh": "美食" },
+    { "id": "sea", "en": "Seasonal", "zh": "节令" }
+  ],
+  "items": [
+    {
+      "id": "heritage-axis",
+      "cat": "his",
+      "title": { "en": "Great Wall, old capitals & the central axis", "zh": "长城、古都与千年轴线" },
+      "desc": { "en": "A day on Beijing's central axis says more than any documentary.", "zh": "北京中轴线上的一天，比任何纪录片都更直白。" },
+      "badges": [
+        { "en": "English OK", "zh": "语言友好 高" },
+        { "en": "4–6 days", "zh": "建议 4–6 天" }
+      ],
+      "booking": {
+        "reservationRequired": true,
+        "passportOnline": "partial",
+        "note": { "en": "Real-name booking required. Passport holders can book online at most sites, but a few still need counter verification.", "zh": "需实名预约。多数景点持护照可线上预订，少数仍需到窗口核验。" },
+        "verified": false
+      }
+    },
+    {
+      "id": "heritage-gardens",
+      "cat": "his",
+      "title": { "en": "Water towns & classical gardens", "zh": "江南水乡与园林" },
+      "desc": { "en": "Suzhou's windows, Hangzhou's lake, Wuzhen's bridges. It only works slow.", "zh": "苏州的窗、杭州的湖、乌镇的桥，节奏慢下来才好看。" },
+      "badges": [
+        { "en": "English OK", "zh": "语言友好 高" },
+        { "en": "3–5 days", "zh": "建议 3–5 天" }
+      ],
+      "booking": {
+        "reservationRequired": true,
+        "passportOnline": "partial",
+        "note": { "en": "Popular gardens cap daily entries; book 3–7 days ahead in peak season.", "zh": "热门园林有每日限流，旺季建议提前 3–7 天预订。" },
+        "verified": false
+      }
+    },
+    {
+      "id": "nature-southwest",
+      "cat": "nat",
+      "title": { "en": "Southwest landscapes", "zh": "西南山水" },
+      "desc": { "en": "Zhangjiajie's peaks, Jiuzhaigou's water, Guilin's river. Give this line time.", "zh": "张家界的峰、九寨沟的水、桂林的江——这一线要留够时间。" },
+      "badges": [
+        { "en": "Long transfers", "zh": "转场较多" },
+        { "en": "6–8 days", "zh": "建议 6–8 天" }
+      ],
+      "booking": {
+        "reservationRequired": true,
+        "passportOnline": "yes",
+        "note": { "en": "Timed-entry tickets; passport number accepted at checkout on official channels.", "zh": "分时段入园，官方渠道下单时可用护照号。" },
+        "verified": false
+      }
+    },
+    {
+      "id": "city-skylines",
+      "cat": "cit",
+      "title": { "en": "Megacities & skylines", "zh": "超级都市与天际线" },
+      "desc": { "en": "Shanghai, Shenzhen, Guangzhou: easiest on English, easiest first stop.", "zh": "上海、深圳、广州：英文最够用，也最容易上手的第一站。" },
+      "badges": [
+        { "en": "Most English-friendly", "zh": "语言友好 最高" },
+        { "en": "2–4 days", "zh": "建议 2–4 天" }
+      ],
+      "booking": {
+        "reservationRequired": false,
+        "passportOnline": "yes",
+        "note": { "en": "Most attractions take walk-ups; observation decks are worth pre-booking.", "zh": "多数景点可现场购票；观景台类建议提前订。" },
+        "verified": false
+      }
+    },
+    {
+      "id": "food-trail",
+      "cat": "foo",
+      "title": { "en": "Worth a trip for the food alone", "zh": "为吃一趟" },
+      "desc": { "en": "Chengdu, Xi'an, Guangzhou. Menus are Chinese-only — which is exactly where AI earns its keep.", "zh": "成都、西安、广州。菜单大多只有中文——这恰好是最值得用 AI 的地方。" },
+      "badges": [
+        { "en": "Menus in Chinese", "zh": "菜单多中文" },
+        { "en": "3–5 days", "zh": "建议 3–5 天" }
+      ],
+      "booking": {
+        "reservationRequired": false,
+        "passportOnline": "na",
+        "note": { "en": "Restaurants mostly don't take reservations for small parties.", "zh": "小桌一般不接受预订，现场排队为主。" },
+        "verified": false
+      }
+    },
+    {
+      "id": "seasonal",
+      "cat": "sea",
+      "title": { "en": "Seasonal only", "zh": "节令限定" },
+      "desc": { "en": "Spring Festival lanterns, March cherry blossom, late-autumn ginkgo. Same route, different season, different trip.", "zh": "春节灯会、三月樱花、深秋银杏。同一条线，换个时间完全不同。" },
+      "badges": [
+        { "en": "Book early", "zh": "需提前订" },
+        { "en": "Date it to the bloom", "zh": "看花期定行程" }
+      ],
+      "booking": {
+        "reservationRequired": true,
+        "passportOnline": "partial",
+        "note": { "en": "Peak-date slots sell out weeks ahead; check the exact bloom or festival window first.", "zh": "高峰日期的名额常提前数周售罄，先确认花期或节庆窗口。" },
+        "verified": false
+      }
+    }
+  ],
+  "seasons": [
+    { "months": { "en": "Mar–Apr", "zh": "3–4 月" }, "desc": { "en": "Cherry blossom, mild, crowds picking up", "zh": "樱花与回暖，人开始多" }, "warn": false },
+    { "months": { "en": "May / Sep–Oct", "zh": "5 月 / 9–10 月" }, "desc": { "en": "The two universally agreed best windows", "zh": "公认最舒服的两段" }, "warn": false },
+    { "months": { "en": "November", "zh": "11 月" }, "desc": { "en": "Late autumn, fewer people, lower prices", "zh": "深秋、人少、价低" }, "warn": false },
+    { "months": { "en": "Spring Festival / May Day / National Day", "zh": "春节 / 五一 / 国庆" }, "desc": { "en": "Domestic travel peaks — tickets and crowds max out", "zh": "国内出行高峰，票价与景区人流到顶" }, "warn": true }
+  ]
+}
